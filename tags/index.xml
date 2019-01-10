@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Eclipse KUKSA</title>
+    <link>https://staging.eclipse.org/basyx/tags/</link>
+    <description>Recent content in Tags on Eclipse KUKSA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Aug 2018 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="https://staging.eclipse.org/basyx/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Appstore</title>
+      <link>https://staging.eclipse.org/basyx/tags/appstore/</link>
+      <pubDate>Thu, 30 Aug 2018 13:47:08 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/tags/appstore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ece18</title>
+      <link>https://staging.eclipse.org/basyx/tags/ece18/</link>
+      <pubDate>Mon, 22 Oct 2018 12:13:28 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/tags/ece18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecf18</title>
+      <link>https://staging.eclipse.org/basyx/tags/ecf18/</link>
+      <pubDate>Tue, 18 Sep 2018 13:07:31 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/tags/ecf18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementation</title>
+      <link>https://staging.eclipse.org/basyx/tags/implementation/</link>
+      <pubDate>Tue, 05 Jun 2018 21:49:20 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/tags/implementation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iot</title>
+      <link>https://staging.eclipse.org/basyx/tags/iot/</link>
+      <pubDate>Wed, 17 Jan 2018 13:47:08 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oulanka</title>
+      <link>https://staging.eclipse.org/basyx/tags/oulanka/</link>
+      <pubDate>Thu, 26 Oct 2017 13:39:46 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/tags/oulanka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rover</title>
+      <link>https://staging.eclipse.org/basyx/tags/rover/</link>
+      <pubDate>Thu, 31 May 2018 21:49:20 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/tags/rover/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

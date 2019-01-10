@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse KUKSA</title>
+    <link>https://staging.eclipse.org/basyx/</link>
+    <description>Recent content on Eclipse KUKSA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Oct 2018 12:13:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://staging.eclipse.org/basyx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EclipseCon Europe and ESE Kongress events</title>
+      <link>https://staging.eclipse.org/basyx/blog/2018/10/22/ece1018ese1218/</link>
+      <pubDate>Mon, 22 Oct 2018 12:13:28 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/blog/2018/10/22/ece1018ese1218/</guid>
+      <description>EclipseCon France 2018 Eclipse Kuksa and its latest development activities will be presented along with the talk Automotive meets IoT: Innovating your Future Vehicle at EclipseCon Europe 2018 in Ludwigsburg, Germany.
+Embedded Software Engineering Kongress 2018 In addition to the EclipseCon Europe event, you can join us at the ESE Kongress in Sindelfingen, Germany, on December, 6th. The talk Überwindung der Silos – Revolution für vernetzte Fahrzeuge, that means &amp;lsquo;Overcoming the Silos - Revolution for Connected Vehicles&amp;rsquo;, will be held at 16:45 o&amp;rsquo;clock (4:45pm) and will cover both a generic as well as detailed descriptions of the three Eclipse Kuksa platforms (a) In-Vehicle, (b) IDE, and ( c) Cloud.</description>
+    </item>
+    
+    <item>
+      <title>EclipseCon France 2018 - Robert Höttger interview</title>
+      <link>https://staging.eclipse.org/basyx/blog/2018/09/18/ecf2018-interview/</link>
+      <pubDate>Tue, 18 Sep 2018 13:07:31 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/blog/2018/09/18/ecf2018-interview/</guid>
+      <description>Interview with Robert Höttger (Fachhochschule Dortmund - University of Applied Science and Arts). Robert presented the recent news about the APPSTACLE project.</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Kuksa Hackathon 08.2018</title>
+      <link>https://staging.eclipse.org/basyx/blog/2018/08/30/hack0818/</link>
+      <pubDate>Thu, 30 Aug 2018 13:47:08 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/blog/2018/08/30/hack0818/</guid>
+      <description>Hacking 3 Days @ IDiAL, FH-Dortmund, for Eclipse Kuksa Features 13 Hackers met in Dortmund on August, 28th until 30th of August to work on an end-to-end use case scenario along with new Eclipse Kuksa technologies. 20 CQs, 2 major GitHub pull-requests, and 21035 LOCs were the results. Of course, the LOCs also contain content from work prior to the Hackathon.
+More precisely, the Eclipse Kuksa Appstore was migrated to an Eclipse HawkBit Server, that transmits applications wirelessly to an Eclipse HawkBit client running on a device (Raspberry Pi) that runs the Kuksa adapted AGL (Automotive Grade Linux + Kuksa technologies).</description>
+    </item>
+    
+    <item>
+      <title>Ressources</title>
+      <link>https://staging.eclipse.org/basyx/ressources/</link>
+      <pubDate>Fri, 29 Jun 2018 09:46:31 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/ressources/</guid>
+      <description> GitHub Repositories  Eclipse Kuksa IDE: https://github.com/eclipse/kuksa.ide Eclipse Kuksa Apps: https://github.com/eclipse/kuksa.apps Eclipse Kuksa Cloud: https://github.com/eclipse/kuksa.cloud Eclipse Kuksa In-Vehicle: https://github.com/eclipse/kuksa.invehicle Eclipse Kuksa Integration: https://github.com/eclipse/kuksa.integration Eclipse Kuksa Website: https://github.com/eclipse/kuksa.website  Documentations  Eclipse Che Kuksa IDE: https://gitlab-pages.idial.institute/pedro.cuadrachamorro/kuksa-ide/ Rover Docs: https://app4mc-rover.github.io/rover-docs/ Rover API: https://app4mc-rover.github.io/rover-app/ Rover Telemetry UI https://github.com/app4mc-rover/rover-telemetry-ui Eclipse Kuksa Wiki: https://wiki.eclipse.org/Kuksa  Builds  Website Jenkins: https://jenkins.eclipse.org/kuksa/  APPSTACLE Deliverables and more  Available at: https://itea3.org/project/appstacle.html  </description>
+    </item>
+    
+    <item>
+      <title>Forum</title>
+      <link>https://staging.eclipse.org/basyx/forum/</link>
+      <pubDate>Fri, 29 Jun 2018 09:45:23 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/forum/</guid>
+      <description>Visit the Eclipse Kuksa Forum Click Here</description>
+    </item>
+    
+    <item>
+      <title>EclipseCon France participation</title>
+      <link>https://staging.eclipse.org/basyx/blog/2018/06/18/ecf2018/</link>
+      <pubDate>Mon, 18 Jun 2018 13:07:31 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/blog/2018/06/18/ecf2018/</guid>
+      <description>EclipseCon France 2018 Eclipse Kuksa was presented at EclipseCon France 2018 along with the research booth, the research community&amp;rsquo;s pitch session, a regular talk hold by Tobias Rawald and Robert Hoettger, and an interview about the motivation, goals, and the current state of Eclipse Kuksa.
+We really enjoyed hosting @EclipseCon France these neat research projects and their representatives @Appstacle @agile_iot @AMASSproject @crossminer @gemocinitiative @stamp_project. We are looking forward for meeting at @EclipseCon Europe!</description>
+    </item>
+    
+    <item>
+      <title>Initial Contributions</title>
+      <link>https://staging.eclipse.org/basyx/blog/2018/06/05/initialcontribution/</link>
+      <pubDate>Tue, 05 Jun 2018 21:49:20 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/blog/2018/06/05/initialcontribution/</guid>
+      <description>Eclipse Kuksa&amp;rsquo;s initial contribution was successfully submitted to the GitHub repositories. We are working on a roadmap to present planned activities for upcoming contributions. Apart from the three major Kuksa parts, i.e.,
+ kuksa.invehicle kuksa.cloud kuksa.ide  additional repositories will cover specific use-cases, builds, tests, and other features within:
+ kuksa.apps kuksa.integration  </description>
+    </item>
+    
+    <item>
+      <title>Rover V03</title>
+      <link>https://staging.eclipse.org/basyx/blog/2018/05/31/roverv03/</link>
+      <pubDate>Thu, 31 May 2018 21:49:20 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/blog/2018/05/31/roverv03/</guid>
+      <description>The Rover (SW: Rover Software, HW: Rover Hardware) has been updated to version V03. This includes several migrations of tasks to AGL services and applications, as well major improvements to the Rover&amp;rsquo;s chassis, that provides a more modular structure since components can be flexibly clipped to different positions without the need of screws. The following implementations are though on our roadmap for the next release:
+ ACC Parking Marker recognition (using OpenCV) Rover-follow application &amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://staging.eclipse.org/basyx/about/</link>
+      <pubDate>Tue, 30 Jan 2018 10:08:18 +0100</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/about/</guid>
+      <description>&lt;p class=&#34;lead&#34;&gt;
+Because today&#39;s software-intensive automotive systems are still developed in silos by each car manufacturer or OEM in-house, long-term challenges in the industry are yet unresolved. Establishing a standard for car-to-cloud scenarios significantly improves comprehensive domain-related development activities and opens the market to external applications, service provider, and the use of open source software wherever possible without compromising security. Connectivity, OTA maintenance, automated driving, electric mobility, and related approaches increasingly demand technical innovations applicable across automotive players.
+&lt;/p&gt;
+&lt;p class=&#34;lead&#34;&gt;
+The open and secure Eclipse Kuksa project will contain a cloud platform that interconnects a wide range of vehicles to the cloud via in-car and internet connections. This platform will be supported by an integrated open source software development environment including technologies to cope especially with software challenges for vehicles designed in the IoT, Cloud, and digital era.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>https://staging.eclipse.org/basyx/calendar/</link>
+      <pubDate>Tue, 30 Jan 2018 09:24:09 +0100</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/calendar/</guid>
+      <description>Meet the AGILE team at the following events:
+ Click on the Agenda tab to visualize the events as a list.</description>
+    </item>
+    
+    <item>
+      <title>Eclipse Kuksa @ IoT WG</title>
+      <link>https://staging.eclipse.org/basyx/blog/2018/01/17/plans/</link>
+      <pubDate>Wed, 17 Jan 2018 13:47:08 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/blog/2018/01/17/plans/</guid>
+      <description>Introduction to Eclipse Kuksa The slides below were part of the introduction of Eclipse Kuksa to the Eclipse IoT community.
+Presentation is available here.</description>
+    </item>
+    
+    <item>
+      <title>Oulanka Project Meeting</title>
+      <link>https://staging.eclipse.org/basyx/blog/2017/10/26/oulanka/</link>
+      <pubDate>Thu, 26 Oct 2017 13:39:46 +0200</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/blog/2017/10/26/oulanka/</guid>
+      <description>Project Meeting in Oulanka At the project meeting in Oulanka, Finnland, the APPSTACLE consortium collected and coordinated a variety of topics to work on in the upcoming time. Use-case scenarios, in-vehicle development activities, network protocols, cloud infrastructure, security demands, dissemination and exploitation and other topics were in focus for the project partners. The various discussions, cooperations, ideas, and further activities were defined in order to set the basis to reach the goals of APPSTACLE and form Eclipse Kuksa, i.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://staging.eclipse.org/basyx/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/contact/</guid>
+      <description>We are here to help you Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
+Please feel free to contact us, our customer service center is working for you 24&amp;frasl;7.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://staging.eclipse.org/basyx/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/faq/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+  </channel>
+</rss>
