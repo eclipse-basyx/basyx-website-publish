@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Eclipse KUKSA</title>
+    <title>Blogs on Eclipse BaSyx</title>
     <link>https://staging.eclipse.org/basyx/blog/</link>
-    <description>Recent content in Blogs on Eclipse KUKSA</description>
+    <description>Recent content in Blogs on Eclipse BaSyx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Oct 2018 12:13:28 +0200</lastBuildDate>

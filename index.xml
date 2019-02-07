@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eclipse KUKSA</title>
+    <title>Eclipse BaSyx</title>
     <link>https://staging.eclipse.org/basyx/</link>
-    <description>Recent content on Eclipse KUKSA</description>
+    <description>Recent content on Eclipse BaSyx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Oct 2018 12:13:28 +0200</lastBuildDate>
@@ -41,11 +41,11 @@ More precisely, the Eclipse Kuksa Appstore was migrated to an Eclipse HawkBit Se
     </item>
     
     <item>
-      <title>Ressources</title>
-      <link>https://staging.eclipse.org/basyx/ressources/</link>
+      <title>Resources</title>
+      <link>https://staging.eclipse.org/basyx/resources/</link>
       <pubDate>Fri, 29 Jun 2018 09:46:31 +0200</pubDate>
       
-      <guid>https://staging.eclipse.org/basyx/ressources/</guid>
+      <guid>https://staging.eclipse.org/basyx/resources/</guid>
       <description> GitHub Repositories  Eclipse Kuksa IDE: https://github.com/eclipse/kuksa.ide Eclipse Kuksa Apps: https://github.com/eclipse/kuksa.apps Eclipse Kuksa Cloud: https://github.com/eclipse/kuksa.cloud Eclipse Kuksa In-Vehicle: https://github.com/eclipse/kuksa.invehicle Eclipse Kuksa Integration: https://github.com/eclipse/kuksa.integration Eclipse Kuksa Website: https://github.com/eclipse/kuksa.website  Documentations  Eclipse Che Kuksa IDE: https://gitlab-pages.idial.institute/pedro.cuadrachamorro/kuksa-ide/ Rover Docs: https://app4mc-rover.github.io/rover-docs/ Rover API: https://app4mc-rover.github.io/rover-app/ Rover Telemetry UI https://github.com/app4mc-rover/rover-telemetry-ui Eclipse Kuksa Wiki: https://wiki.eclipse.org/Kuksa  Builds  Website Jenkins: https://jenkins.eclipse.org/kuksa/  APPSTACLE Deliverables and more  Available at: https://itea3.org/project/appstacle.html  </description>
     </item>
     
@@ -138,8 +138,7 @@ Presentation is available here.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://staging.eclipse.org/basyx/contact/</guid>
-      <description>We are here to help you Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
-Please feel free to contact us, our customer service center is working for you 24&amp;frasl;7.</description>
+      <description>Get involved in the BaSyx project Download the Eclipse BaSyx reference implementation and explore the platform. We have detailed documentation on the wiki. Contact us or visit the forum</description>
     </item>
     
     <item>
