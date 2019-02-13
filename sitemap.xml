@@ -112,14 +112,14 @@
   </url>
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/tags/implementation/</loc>
-    <lastmod>2018-06-05T21:49:20+02:00</lastmod>
+    <loc>https://staging.eclipse.org/basyx/categories/implementation/</loc>
+    <lastmod>2018-08-30T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/categories/implementation/</loc>
-    <lastmod>2018-08-30T13:47:08+02:00</lastmod>
+    <loc>https://staging.eclipse.org/basyx/tags/implementation/</loc>
+    <lastmod>2018-06-05T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,13 +142,13 @@
   </url>
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/tags/rover/</loc>
+    <loc>https://staging.eclipse.org/basyx/categories/rover/</loc>
     <lastmod>2018-05-31T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/categories/rover/</loc>
+    <loc>https://staging.eclipse.org/basyx/tags/rover/</loc>
     <lastmod>2018-05-31T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
