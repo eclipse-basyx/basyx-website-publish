@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lot Size 1 on Eclipse BaSyx</title>
+    <link>https://staging.eclipse.org/basyx/tags/lot-size-1/</link>
+    <description>Recent content in Lot Size 1 on Eclipse BaSyx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://staging.eclipse.org/basyx/tags/lot-size-1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Changeable Production To Enable Profitable Lot Size 1</title>
+      <link>https://staging.eclipse.org/basyx/use-case/changeableproduction/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/use-case/changeableproduction/</guid>
+      <description>Current production industry is designed for large lot sizes. Due to the shorter product lifecycles, manufacturing industry needs to shift its focus. Rapidly changing market requirements demand efficient changeable production processes. Furthermore, customers are increasingly attracted to tailored products that yield a much higher value creation than mass-produced goods. A major challenge for process changes is the necessary reprogramming of Programmable Logic Controllers (PLC). PLCs implement automation programs that execute pre-programmed sequences, optionally supporting a pre-defined amount of flexibility.</description>
+    </item>
+    
+  </channel>
+</rss>
