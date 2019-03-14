@@ -6,7 +6,6 @@
     <description>Recent content in Predictive Maintenance on Eclipse BaSyx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://staging.eclipse.org/basyx/tags/predictive-maintenance/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +13,10 @@
     <item>
       <title>Predictive Maintenance</title>
       <link>https://staging.eclipse.org/basyx/use-case/predictivemaintenance/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://staging.eclipse.org/basyx/use-case/predictivemaintenance/</guid>
-      <description>Repairing a device once it’s ‘broken’ can lead to unpredictable and expensive downtime. Scheduled maintenance improves the situation, but a static maintenance schedule can cause unnecessary interruptions. In the worst case, required parts need to be ordered, extending downtimes significantly. Predictive maintenance solves these issues:  Combining live sensor data and past experience enables prediction of necessary maintenance activities and schedules. Production processes can then be adapted to synchronize and integrate maintenance activities with the least possible impact.</description>
+      <description>Repairing a device once it’s ‘broken’ can lead to unpredictable and expensive downtime. Scheduled maintenance improves the situation, but a static maintenance schedule can cause unnecessary interruptions. In the worst case, required parts need to be ordered, extending downtimes significantly. Predictive maintenance solves these issues: Combining live sensor data and past experience enables prediction of necessary maintenance activities and schedules. Production processes can then be adapted to synchronize and integrate maintenance activities with the least possible impact.</description>
     </item>
     
   </channel>

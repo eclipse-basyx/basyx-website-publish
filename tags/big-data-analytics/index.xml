@@ -6,7 +6,6 @@
     <description>Recent content in Big Data Analytics on Eclipse BaSyx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://staging.eclipse.org/basyx/tags/big-data-analytics/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +13,10 @@
     <item>
       <title>Enabler Of Big Data Analytics</title>
       <link>https://staging.eclipse.org/basyx/use-case/bigdataanalytics/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://staging.eclipse.org/basyx/use-case/bigdataanalytics/</guid>
-      <description>Every factory device creates a continuous stream of data. Data analytics can provide valuable insights into production processes:  Which variables have impacts on production cost and quality? How can we predict production performance? Where is hidden potential for optimization in my manufacturing processes? 
-Data analytics requires the combination of data from different sources, i.e. production devices, as well as IT servers. The ability of Eclipse BaSyx to structure machine and product data in Asset Administration Shells, enriching both with semantic information, then combining them, is the enabler for big data analysis.</description>
+      <description>Every factory device creates a continuous stream of data. Data analytics can provide valuable insights into production processes: Which variables have impacts on production cost and quality? How can we predict production performance? Where is hidden potential for optimization in my manufacturing processes?   Data analytics requires the combination of data from different sources, i.e. production devices, as well as IT servers. The ability of Eclipse BaSyx to structure machine and product data in Asset Administration Shells, enriching both with semantic information, then combining them, is the enabler for big data analysis.</description>
     </item>
     
   </channel>

@@ -3,31 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/changeableproduction/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/connectingitwithproductiondevices/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/newbusinessmodels/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/bigdataanalytics/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/predictivemaintenance/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://staging.eclipse.org/basyx/about/</loc>
     <lastmod>2019-02-14T10:08:18+01:00</lastmod>
   </url>
@@ -95,7 +70,6 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/tags/big-data-analytics/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -112,8 +86,15 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/tags/changeable-production/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/use-case/changeableproduction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/use-case/connectingitwithproductiondevices/</loc>
   </url>
   
   <url>
@@ -122,7 +103,6 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/tags/dashboards/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -146,8 +126,16 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-14T10:08:18+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/use-case/newbusinessmodels/</loc>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/use-case/bigdataanalytics/</loc>
   </url>
   
   <url>
@@ -156,7 +144,6 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/tags/from-office-floor-to-shop-floor/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -186,19 +173,16 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/tags/lot-size-1/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://staging.eclipse.org/basyx/tags/monitoring/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://staging.eclipse.org/basyx/tags/new-business-models/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,8 +194,11 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/tags/predictive-maintenance/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/use-case/predictivemaintenance/</loc>
   </url>
   
   <url>
@@ -234,7 +221,6 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/use-case/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
