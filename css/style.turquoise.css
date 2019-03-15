@@ -1774,16 +1774,9 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 .bar.background-image-fixed-2 {
-  /* background: url('../img/fixed-background-2.jpg') center top no-repeat; */
-  background: url('../img/fixed-background-2.jpg');
+  background: url('../img/fixed-background-2.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
-  position: relative;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center center;
-  z-index: 1;
 }
 .bar.color-white h1,
 .bar.color-white h2,
@@ -2512,9 +2505,9 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
-  background: #E4E4E4;
+  background: #555555;
   padding: 50px 0;
-  color: #6A6B6D;
+  color: #999999;
 }
 #footer h1,
 #footer h2,

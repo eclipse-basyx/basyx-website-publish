@@ -6,19 +6,9 @@
     <description>Recent content in Tags on Eclipse BaSyx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Aug 2018 13:47:08 +0200</lastBuildDate>
     
 	<atom:link href="https://staging.eclipse.org/basyx/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Appstore</title>
-      <link>https://staging.eclipse.org/basyx/tags/appstore/</link>
-      <pubDate>Thu, 30 Aug 2018 13:47:08 +0200</pubDate>
-      
-      <guid>https://staging.eclipse.org/basyx/tags/appstore/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Big Data Analytics</title>
@@ -48,47 +38,11 @@
     </item>
     
     <item>
-      <title>Ece18</title>
-      <link>https://staging.eclipse.org/basyx/tags/ece18/</link>
-      <pubDate>Mon, 22 Oct 2018 12:13:28 +0200</pubDate>
-      
-      <guid>https://staging.eclipse.org/basyx/tags/ece18/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ecf18</title>
-      <link>https://staging.eclipse.org/basyx/tags/ecf18/</link>
-      <pubDate>Tue, 18 Sep 2018 13:07:31 +0200</pubDate>
-      
-      <guid>https://staging.eclipse.org/basyx/tags/ecf18/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>From Office Floor to Shop Floor</title>
       <link>https://staging.eclipse.org/basyx/tags/from-office-floor-to-shop-floor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://staging.eclipse.org/basyx/tags/from-office-floor-to-shop-floor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Implementation</title>
-      <link>https://staging.eclipse.org/basyx/tags/implementation/</link>
-      <pubDate>Tue, 05 Jun 2018 21:49:20 +0200</pubDate>
-      
-      <guid>https://staging.eclipse.org/basyx/tags/implementation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iot</title>
-      <link>https://staging.eclipse.org/basyx/tags/iot/</link>
-      <pubDate>Wed, 17 Jan 2018 13:47:08 +0200</pubDate>
-      
-      <guid>https://staging.eclipse.org/basyx/tags/iot/</guid>
       <description></description>
     </item>
     
@@ -120,29 +74,11 @@
     </item>
     
     <item>
-      <title>Oulanka</title>
-      <link>https://staging.eclipse.org/basyx/tags/oulanka/</link>
-      <pubDate>Thu, 26 Oct 2017 13:39:46 +0200</pubDate>
-      
-      <guid>https://staging.eclipse.org/basyx/tags/oulanka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Predictive Maintenance</title>
       <link>https://staging.eclipse.org/basyx/tags/predictive-maintenance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://staging.eclipse.org/basyx/tags/predictive-maintenance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rover</title>
-      <link>https://staging.eclipse.org/basyx/tags/rover/</link>
-      <pubDate>Thu, 31 May 2018 21:49:20 +0200</pubDate>
-      
-      <guid>https://staging.eclipse.org/basyx/tags/rover/</guid>
       <description></description>
     </item>
     
