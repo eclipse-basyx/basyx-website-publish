@@ -18,13 +18,15 @@
       
       <guid>https://staging.eclipse.org/basyx/about/</guid>
       <description>&lt;p class=&#34;lead&#34;&gt;
-Eclipse BaSyx is the open source platform for next generation automation. As a reference technology  platform, the BaSyx project enables large and small industries, research institutes, academia, and interested persons, to participate in the fourth industrial revolution.
+Eclipse BaSyx is an open source platform for the next generation automation. As a reference technology  platform, the BaSyx project enables large and small industries, research institutes, academia, and interested persons, to participate in the fourth industrial revolution.
 &lt;/p&gt;
+
 &lt;p class=&#34;lead&#34;&gt;
- The platform enables rapid development of Industrie 4.0 solutions by providing common Industrie 4.0 components and an SDK that supports the development of new components. The Eclipse BaSyx platform will provide reference application scenarios for common Industrie 4.0 challenges.
-&lt;/p&gt;
-&lt;p class=&#34;lead&#34;&gt;
- The Eclipse BaSyx platform will provide reference application scenarios for common Industrie 4.0 challenges.
+By providing common Industrie 4.0 components and an extendable SDK the platform accelerates the development of Industrie 4.0 solutions.
+The Eclipse BaSyx platform addresses challenges like changeable production to enable individualized goods, exploiting big data analytics and connecting heterogenous devices and systems while minimizing downtime and other associated costs.  
+&lt;!--use cases like a profitable production of a small lot size or a predictive maintenance for devices.
+Connecting devices at the shop-floor with IT systems at the office-floor, Big Data Analytics and new Business Models are further examples what the platform enables. 
+More details about the mentioned use cases could be read &lt;a href=&#34;https://staging.eclipse.org/basyx/basyx/use-case/&#34;&gt;here&lt;/a&gt;.--&gt;
 &lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
