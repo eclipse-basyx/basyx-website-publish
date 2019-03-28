@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Eclipse BaSyx</title>
+    <link>https://www.eclipse.org/basyx/tags/</link>
+    <description>Recent content in Tags on Eclipse BaSyx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.eclipse.org/basyx/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Big Data Analytics</title>
+      <link>https://www.eclipse.org/basyx/tags/big-data-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/tags/big-data-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Changeable Production</title>
+      <link>https://www.eclipse.org/basyx/tags/changeable-production/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/tags/changeable-production/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dashboards</title>
+      <link>https://www.eclipse.org/basyx/tags/dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/tags/dashboards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Office Floor to Shop Floor</title>
+      <link>https://www.eclipse.org/basyx/tags/from-office-floor-to-shop-floor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/tags/from-office-floor-to-shop-floor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lot Size 1</title>
+      <link>https://www.eclipse.org/basyx/tags/lot-size-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/tags/lot-size-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring</title>
+      <link>https://www.eclipse.org/basyx/tags/monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Business Models</title>
+      <link>https://www.eclipse.org/basyx/tags/new-business-models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/tags/new-business-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Maintenance</title>
+      <link>https://www.eclipse.org/basyx/tags/predictive-maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/tags/predictive-maintenance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
