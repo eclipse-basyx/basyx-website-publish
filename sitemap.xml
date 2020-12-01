@@ -4,7 +4,22 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/about/</loc>
-    <lastmod>2019-02-14T10:08:18+01:00</lastmod>
+    <lastmod>2020-12-01T10:08:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/blog/2018/10/22/ece1018ese1218/</loc>
+    <lastmod>2018-10-22T12:13:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/blog/2018/09/18/ecf2018-interview/</loc>
+    <lastmod>2018-09-18T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/blog/2018/08/30/hack0818/</loc>
+    <lastmod>2018-08-30T13:47:08+02:00</lastmod>
   </url>
   
   <url>
@@ -18,12 +33,38 @@
   </url>
   
   <url>
+    <loc>https://staging.eclipse.org/basyx/blog/2018/06/18/ecf2018/</loc>
+    <lastmod>2018-06-18T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/blog/2018/06/05/initialcontribution/</loc>
+    <lastmod>2018-06-05T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/blog/2018/05/31/roverv03/</loc>
+    <lastmod>2018-05-31T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://staging.eclipse.org/basyx/calendar/</loc>
     <lastmod>2018-01-30T09:24:09+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/tags/big-data-analytics/</loc>
+    <loc>https://staging.eclipse.org/basyx/blog/2018/01/17/plans/</loc>
+    <lastmod>2018-01-17T13:47:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/blog/2017/10/26/oulanka/</loc>
+    <lastmod>2017-10-26T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/blog/</loc>
+    <lastmod>2018-10-22T12:13:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -33,39 +74,13 @@
   </url>
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/tags/changeable-production/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/changeableproduction/</loc>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/connectingitwithproductiondevices/</loc>
-  </url>
-  
-  <url>
     <loc>https://staging.eclipse.org/basyx/contact/</loc>
   </url>
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/tags/dashboards/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://staging.eclipse.org/basyx/</loc>
-    <lastmod>2019-02-14T10:08:18+01:00</lastmod>
+    <lastmod>2020-12-01T10:08:18+01:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/newbusinessmodels/</loc>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/bigdataanalytics/</loc>
   </url>
   
   <url>
@@ -73,41 +88,11 @@
   </url>
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/tags/from-office-floor-to-shop-floor/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/tags/lot-size-1/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/tags/monitoring/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/tags/new-business-models/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/tags/predictive-maintenance/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/predictivemaintenance/</loc>
+    <loc>https://staging.eclipse.org/basyx/offer/</loc>
   </url>
   
   <url>
     <loc>https://staging.eclipse.org/basyx/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/use-case/</loc>
     <priority>0</priority>
   </url>
   
