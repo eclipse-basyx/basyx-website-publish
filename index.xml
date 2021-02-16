@@ -6,10 +6,19 @@
     <description>Recent content on Eclipse BaSyx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 10:08:18 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://staging.eclipse.org/basyx/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shopfloor 4.0</title>
+      <link>https://staging.eclipse.org/basyx/offer/shopfloor40/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/offer/shopfloor40/</guid>
+      <description>Fraunhofer IESE is offering an off-the-shelf Industrie 4.0 solution based on Eclipse BaSyx with its partners NetApp and objective partner.</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -17,7 +26,7 @@
       <pubDate>Tue, 01 Dec 2020 10:08:18 +0100</pubDate>
       
       <guid>https://staging.eclipse.org/basyx/about/</guid>
-      <description>Eclipse BaSyx is the open source platform for next generation automation. It&#39;s implementing the key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell. Our mission is to provide a free software platform that enables all interested parties, large and small industries, research institutes, academia, and interested persons, to participate and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the Industrie 4.</description>
+      <description>Eclipse BaSyx is the open source platform for next generation automation. It&#39;s implementing the key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell. Our mission is to provide a free software platform that enables all interested parties, large and small companies, research institutes, academia, and interested persons, to participate in and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the Industrie 4.</description>
     </item>
     
     <item>
@@ -155,16 +164,6 @@ Presentation is available here.</description>
       <guid>https://staging.eclipse.org/basyx/faq/</guid>
       <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Offers</title>
-      <link>https://staging.eclipse.org/basyx/offer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://staging.eclipse.org/basyx/offer/</guid>
-      <description> Shopfloor 4.0 Fraunhofer IESE is offering an off-the-shelf Industrie 4.0 solution based on Eclipse BaSyx with its partners NetApp and objective partner.
-        </description>
     </item>
     
   </channel>
