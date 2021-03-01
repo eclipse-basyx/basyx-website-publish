@@ -8,16 +8,6 @@
   </url>
   
   <url>
-    <loc>https://staging.eclipse.org/basyx/offer/shopfloor40/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/about/</loc>
-    <lastmod>2020-12-01T10:08:18+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://staging.eclipse.org/basyx/contributing/</loc>
     <lastmod>2019-01-29T09:46:31+02:00</lastmod>
   </url>
@@ -38,6 +28,10 @@
   </url>
   
   <url>
+    <loc>https://staging.eclipse.org/basyx/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://staging.eclipse.org/basyx/blog/</loc>
     <lastmod>2021-02-17T00:00:00+00:00</lastmod>
   </url>
@@ -45,11 +39,6 @@
   <url>
     <loc>https://staging.eclipse.org/basyx/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://staging.eclipse.org/basyx/offer/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
