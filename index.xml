@@ -6,30 +6,30 @@
     <description>Recent content on Eclipse BaSyx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Feb 2019 10:08:18 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 17 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.eclipse.org/basyx/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
-      <link>https://www.eclipse.org/basyx/about/</link>
-      <pubDate>Thu, 14 Feb 2019 10:08:18 +0100</pubDate>
+      <title>Industry 4.0 becomes practical</title>
+      <link>https://www.eclipse.org/basyx/blog/2021/02/17/industry40becomespractical/</link>
+      <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.eclipse.org/basyx/about/</guid>
-      <description>&lt;p class=&#34;lead&#34;&gt;
-Eclipse BaSyx is an open source platform for the next generation automation. As a reference technology  platform, the BaSyx project enables large and small industries, research institutes, academia, and interested persons, to participate in the fourth industrial revolution.
-&lt;/p&gt;
-
-&lt;p class=&#34;lead&#34;&gt;
-By providing common Industrie 4.0 components and an extendable SDK the platform accelerates the development of Industrie 4.0 solutions.
-The Eclipse BaSyx platform addresses challenges like changeable production to enable individualized goods, exploiting big data analytics and connecting heterogenous devices and systems while minimizing downtime and other associated costs.  
-&lt;!--use cases like a profitable production of a small lot size or a predictive maintenance for devices.
-Connecting devices at the shop-floor with IT systems at the office-floor, Big Data Analytics and new Business Models are further examples what the platform enables. 
-More details about the mentioned use cases could be read &lt;a href=&#34;https://www.eclipse.org/basyx/basyx/use-case/&#34;&gt;here&lt;/a&gt;.--&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://www.eclipse.org/basyx/blog/2021/02/17/industry40becomespractical/</guid>
+      <description>Fraunhofer IESE brings flexible manufacturing to companies with Eclipse BaSyx. One of the goals of industry 4.0 is to be able to exchange devices with the same capabilities in a production plant without having to change the control system. The BaSys 4.0 project, funded by the German Federal Ministry of Education and Research, aims to solve this challenge in a practical way with the concept of service-based manufacturing. With the help of the Eclipse BaSyx, Fraunhofer IESE from Kaiserslautern and other project partners enable even small and medium-sized companies to make convertible manufacturing a reality.</description>
+    </item>
+    
+    <item>
+      <title>Contributing to Eclipse BaSyx</title>
+      <link>https://www.eclipse.org/basyx/contributing/</link>
+      <pubDate>Tue, 29 Jan 2019 09:46:31 +0200</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/contributing/</guid>
+      <description>Get in touch ! There is the
+BaSyx-dev mailing list and a bi-weekly Zoom meeting every Thursday on even calendar weeks from 1-2pm (CET/CEST). How to contribute to Eclipse BaSyx Great that you are interested in contributing to Eclipse BaSyx. We really looking forward to receive your contribution!
+In the project we agreed upon the following approach to add contributions to the project.
+ Meet the Definition of Done (DoD) A review took place for the code The new feature was at least once tested manually, deployed to a running test instance Clearly outline third party dependencies  Definition of Done First, we have DoD for solved issues.</description>
     </item>
     
     <item>
@@ -61,21 +61,12 @@ More details about the mentioned use cases could be read &lt;a href=&#34;https:/
     </item>
     
     <item>
-      <title>Changeable Production To Enable Profitable Lot Size 1</title>
-      <link>https://www.eclipse.org/basyx/use-case/changeableproduction/</link>
+      <title>About</title>
+      <link>https://www.eclipse.org/basyx/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.eclipse.org/basyx/use-case/changeableproduction/</guid>
-      <description>Current production industry is designed for large lot sizes. Due to the shorter product lifecycles, manufacturing industry needs to shift its focus. Rapidly changing market requirements demand efficient changeable production processes. Furthermore, customers are increasingly attracted to tailored products that yield a much higher value creation than mass-produced goods. A major challenge for process changes is the necessary reprogramming of Programmable Logic Controllers (PLC). PLCs implement automation programs that execute pre-programmed sequences, optionally supporting a pre-defined amount of flexibility.</description>
-    </item>
-    
-    <item>
-      <title>Connecting IT And Production Devices On The Shop-Floor</title>
-      <link>https://www.eclipse.org/basyx/use-case/connectingitwithproductiondevices/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.eclipse.org/basyx/use-case/connectingitwithproductiondevices/</guid>
-      <description>Walking around the shop-floor to manually query machine states is inefficient and prevents operators from efficiently obtaining a holistic view on the complete production process. Streaming of live production data to IT on the office-floor remains a challenge that prevents efficient monitoring and understanding of production processes.  The BaSyx Virtual Automation Bus (VAB) enables machine to machine communication across the layers of the automation pyramid; shop-floor devices can directly interact with enterprise resource planning (ERP) systems, even if they use different protocols.</description>
+      <guid>https://www.eclipse.org/basyx/about/</guid>
+      <description>Eclipse BaSyx is the open source platform for next generation automation. It implements key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell as standardized digital twin. Our mission is to provide a free software platform that enables all interested parties, large and small companies, research institutes, academia, and interested persons, to participate in and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the Industrie 4.</description>
     </item>
     
     <item>
@@ -88,24 +79,6 @@ More details about the mentioned use cases could be read &lt;a href=&#34;https:/
     </item>
     
     <item>
-      <title>Enabler For New Business Models</title>
-      <link>https://www.eclipse.org/basyx/use-case/newbusinessmodels/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.eclipse.org/basyx/use-case/newbusinessmodels/</guid>
-      <description>Industrie 4.0 is about more efficient mass-production processes, and mass-customization, the efficient and inexpensive production of small lot sizes. Industrie 4.0 is also the end-to-end digitalization of manufacturing and enables new business models. The following exemplary Industrie 4.0 business models can be implemented with Eclipse BaSyx. Data BrokeringData produced in manufacturing processes is extremely valuable for equipment manufacturers and other third-party businesses since it enables prediction and optimization of manufacturing processes and product quality.</description>
-    </item>
-    
-    <item>
-      <title>Enabler Of Big Data Analytics</title>
-      <link>https://www.eclipse.org/basyx/use-case/bigdataanalytics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.eclipse.org/basyx/use-case/bigdataanalytics/</guid>
-      <description>Every factory device creates a continuous stream of data. Data analytics can provide valuable insights into production processes: Which variables have impacts on production cost and quality? How can we predict production performance? Where is hidden potential for optimization in my manufacturing processes?   Data analytics requires the combination of data from different sources, i.e. production devices, as well as IT servers. The ability of Eclipse BaSyx to structure machine and product data in Asset Administration Shells, enriching both with semantic information, then combining them, is the enabler for big data analysis.</description>
-    </item>
-    
-    <item>
       <title>FAQ</title>
       <link>https://www.eclipse.org/basyx/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -113,15 +86,6 @@ More details about the mentioned use cases could be read &lt;a href=&#34;https:/
       <guid>https://www.eclipse.org/basyx/faq/</guid>
       <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
-    </item>
-    
-    <item>
-      <title>Predictive Maintenance</title>
-      <link>https://www.eclipse.org/basyx/use-case/predictivemaintenance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.eclipse.org/basyx/use-case/predictivemaintenance/</guid>
-      <description>Repairing a device once it’s ‘broken’ can lead to unpredictable and expensive downtime. Scheduled maintenance improves the situation, but a static maintenance schedule can cause unnecessary interruptions. In the worst case, required parts need to be ordered, extending downtimes significantly. Predictive maintenance solves these issues: Combining live sensor data and past experience enables prediction of necessary maintenance activities and schedules. Production processes can then be adapted to synchronize and integrate maintenance activities with the least possible impact.</description>
     </item>
     
   </channel>

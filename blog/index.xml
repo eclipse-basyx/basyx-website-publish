@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Eclipse BaSyx</title>
+    <link>https://www.eclipse.org/basyx/blog/</link>
+    <description>Recent content in Blog on Eclipse BaSyx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.eclipse.org/basyx/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Industry 4.0 becomes practical</title>
+      <link>https://www.eclipse.org/basyx/blog/2021/02/17/industry40becomespractical/</link>
+      <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/blog/2021/02/17/industry40becomespractical/</guid>
+      <description>Fraunhofer IESE brings flexible manufacturing to companies with Eclipse BaSyx. One of the goals of industry 4.0 is to be able to exchange devices with the same capabilities in a production plant without having to change the control system. The BaSys 4.0 project, funded by the German Federal Ministry of Education and Research, aims to solve this challenge in a practical way with the concept of service-based manufacturing. With the help of the Eclipse BaSyx, Fraunhofer IESE from Kaiserslautern and other project partners enable even small and medium-sized companies to make convertible manufacturing a reality.</description>
+    </item>
+    
+  </channel>
+</rss>

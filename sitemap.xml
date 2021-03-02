@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.eclipse.org/basyx/about/</loc>
-    <lastmod>2019-02-14T10:08:18+01:00</lastmod>
+    <loc>https://www.eclipse.org/basyx/blog/2021/02/17/industry40becomespractical/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/contributing/</loc>
+    <lastmod>2019-01-29T09:46:31+02:00</lastmod>
   </url>
   
   <url>
@@ -23,8 +28,12 @@
   </url>
   
   <url>
-    <loc>https://www.eclipse.org/basyx/tags/big-data-analytics/</loc>
-    <priority>0</priority>
+    <loc>https://www.eclipse.org/basyx/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/blog/</loc>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,39 +42,13 @@
   </url>
   
   <url>
-    <loc>https://www.eclipse.org/basyx/tags/changeable-production/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/use-case/changeableproduction/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/use-case/connectingitwithproductiondevices/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.eclipse.org/basyx/contact/</loc>
   </url>
   
   <url>
-    <loc>https://www.eclipse.org/basyx/tags/dashboards/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.eclipse.org/basyx/</loc>
-    <lastmod>2019-02-14T10:08:18+01:00</lastmod>
+    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/use-case/newbusinessmodels/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/use-case/bigdataanalytics/</loc>
   </url>
   
   <url>
@@ -73,41 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.eclipse.org/basyx/tags/from-office-floor-to-shop-floor/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/tags/lot-size-1/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/tags/monitoring/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/tags/new-business-models/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/tags/predictive-maintenance/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/use-case/predictivemaintenance/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.eclipse.org/basyx/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eclipse.org/basyx/use-case/</loc>
     <priority>0</priority>
   </url>
   
