@@ -21,15 +21,12 @@
     </item>
     
     <item>
-      <title>Contributing to Eclipse BaSyx</title>
-      <link>https://www.eclipse.org/basyx/contributing/</link>
-      <pubDate>Tue, 29 Jan 2019 09:46:31 +0200</pubDate>
+      <title>Shopfloor 4.0</title>
+      <link>https://www.eclipse.org/basyx/offer/shopfloor40/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.eclipse.org/basyx/contributing/</guid>
-      <description>Get in touch ! There is the
-BaSyx-dev mailing list and a bi-weekly Zoom meeting every Thursday on even calendar weeks from 1-2pm (CET/CEST). How to contribute to Eclipse BaSyx Great that you are interested in contributing to Eclipse BaSyx. We really looking forward to receive your contribution!
-In the project we agreed upon the following approach to add contributions to the project.
- Meet the Definition of Done (DoD) A review took place for the code The new feature was at least once tested manually, deployed to a running test instance Clearly outline third party dependencies  Definition of Done First, we have DoD for solved issues.</description>
+      <guid>https://www.eclipse.org/basyx/offer/shopfloor40/</guid>
+      <description>Fraunhofer IESE is offering an off-the-shelf Industrie 4.0 solution based on Eclipse BaSyx with its partners NetApp and objective partner.</description>
     </item>
     
     <item>

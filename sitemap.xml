@@ -8,8 +8,8 @@
   </url>
   
   <url>
-    <loc>https://www.eclipse.org/basyx/contributing/</loc>
-    <lastmod>2019-01-29T09:46:31+02:00</lastmod>
+    <loc>https://www.eclipse.org/basyx/offer/shopfloor40/</loc>
+    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -39,6 +39,11 @@
   <url>
     <loc>https://www.eclipse.org/basyx/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/offer/</loc>
+    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
