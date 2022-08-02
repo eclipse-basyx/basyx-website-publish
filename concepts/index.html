@@ -6,7 +6,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About</title>
+  <title>Concepts</title>
   <meta name="author" content="" />
 
   
@@ -74,9 +74,9 @@
   <link rel="alternate" href="https://staging.eclipse.org/index.xml" type="application/rss+xml" title="Eclipse BaSyx">
 
   
-  <meta property="og:title" content="About" />
+  <meta property="og:title" content="Concepts" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/basyx/about//" />
+  <meta property="og:url" content="/basyx/concepts//" />
   <meta property="og:image" content="img/basyxlogo.png" />
   
   
@@ -107,9 +107,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="https://staging.eclipse.org/basyx/">
-                    <img src="https://staging.eclipse.org/basyx/img/basyxlogo.png" alt="About logo" class="hidden-xs hidden-sm">
-                    <img src="https://staging.eclipse.org/basyx/img/basyxlogo.png" alt="About logo" class="visible-xs visible-sm">
-                    <span class="sr-only">About - go to homepage</span>
+                    <img src="https://staging.eclipse.org/basyx/img/basyxlogo.png" alt="Concepts logo" class="hidden-xs hidden-sm">
+                    <img src="https://staging.eclipse.org/basyx/img/basyxlogo.png" alt="Concepts logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Concepts - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -194,7 +194,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>About</h1>
+                <h1>Concepts</h1>
             </div>
         </div>
     </div>
@@ -218,45 +218,103 @@
                         <p class="text-muted text-uppercase mb-small text-right">   </p>
 						
                         <div id="post-content">
-                          <div align="justify" >
-        
-    
-    <p class="lead">
-    Eclipse BaSyx is the open source platform for next generation automation. It implements key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell as standardized digital twin.  
-    Our mission is to provide a free software platform that enables all interested parties, large and small companies, research institutes, academia, and interested persons, 
-    to participate in and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the 
-    Industrie 4.0.
-    </p>    
-    
-    <p class="lead">
-    Eclipse BaSyx therefore provides common and re-useable off-the shelf Industrie 4.0 components and SDKs (Java, C# and C++) that support the implementation of new Industrie 4.0 software components 
-    to enable rapid development of Industrie 4.0 solutions. BaSyx furthermore supports reference application scenarios for common 
-    Industrie 4.0 challenges such as a changeable production to enable individualized goods, leveraging big data analytics and connecting heterogeneous devices and systems while minimizing 
-    downtime and other associated costs.
-    </p>
-    
-    
-    <!--<p class="lead">
-    Eclipse BaSyx is actively supported by the <a href="https://www.basys40.de/" title=""> BaSys 4.2 </a> (Homepage, in German) research project, which is 
-    funded by the German Ministry for Education and Research (BMBF, grant no. 01IS16022). BaSys 4.2 researches and specifies key concepts of Industrie 4.0, participates in standardization activities, and integrates existing 
-    standards and technologies into an Industrie 4.0 middleware.
-    </p>-->
-    
-    <p class="lead">
-        In the following video Frank Schnicke (Fraunhofer IESE) is explaining the Eclipse BaSyx middleware by using a model factory (English subtitles provided).
-    </p>
+                          
 
-       
-</div>
+<!-- ![AAS Holistic ilustration alt](images/holistic_aas.png) -->
 
-<div class="col-md-12">
+<h3 id="asset-administration-shells-aas">Asset Administration Shells (AAS)</h3>
+
+<p>Many existing automation systems communicate using direct connections. One device must understand the protocols, encodings, and data models of all connected systems. If a system, e.g. a sensor is to be replaced, all dependent systems need to be updated, e.g. with an updated characteristic curve of a new sensor.</p>
+
+<p>Eclipse BaSyx realizes a bus like topology, the virtual automation bus. It enables end-to-end communication between all integrated assets using http/REST communication.</p>
+
+<p>This integration is achieved with the Asset administration Shell (AAS). The AAS is a unified representation for all relevant physical and non-physical assets, e.g. for products, orders, processes, devices, certificates, ERP/MES Systems, and everything else that is relevant. The AAS is standardized as IEC 63278-1 ED1.</p>
+
+<p>The AAS enables access to all relevant asset services and properties, and therefore is our base technology for the realization of digital twins. The same AAS can be reached via multiple Ids. This enables to reach an AAS via e.g. a unique ID, a URI, but also through additional Ids that e.g. are bound to the assets role in a factory.</p>
+
+<!-- ![AAS Data ilustration alt](images/aas_data.png) -->
+
+<h3 id="aas-submodels">AAS Submodels</h3>
+
+<p>Eclipse BaSyx realizes digital twins of assets with Asset Administration Shells.</p>
+
+<p>Since different types of assets require and provide different kinds of information and services, AAS sub models define specific kinds of data and services. Sub models are specific for example for asset types, products, domains or users and therefore enable tailoring of AAS to applications.</p>
+
+<p>A sub model is always part of an AAS, and defines a set of data properties and services. Their structure conform to a data model that defines names of properties and services, types, and relations.</p>
+
+<p>The same AAS may define any number of sub models, but every sub model always belongs to one AAS.</p>
+
+<p>Common sub models are subject to ongoing standardization activities to ensure that these sub models conform to a known structure.</p>
+
+<p>Static AAS sub models may be created with the AASX package explorer, dynamic and active AAS sub models are supported by the BaSyx SDK component.</p>
+
+<p><img src="images/aas_submodels.png" alt="AAS Submodels ilustration alt" /></p>
+
+<h3 id="aas-referencing-and-exchange">AAS – Referencing and Exchange</h3>
+
+<!-- 
+<figure class="img-left">
     
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        <iframe src="https://www.youtube-nocookie.com/embed/bMY8FLhjjRI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" title="YouTube Video"></iframe>
-    </div>  
-   
+        <img src="./images/aas_reference_and_exchange.png" />
+    
+    
+</figure>
+ -->
 
-<p></div></p>
+<p>Optimizing the production along value chains requires data exchange. As Eclipse BaSyx represents all relevant assets with Asset Administration Shells, one AAS can refer other AAS or AAS sub models by their unique ID. This enables e.g. a product to refer to all devices, processes, and plants that were involved in its manufacturing.</p>
+
+<p>Optimizing the production along value chains requires data exchange. As Eclipse BaSyx represents all relevant assets with Asset Administration Shells, one AAS can refer other AAS or AAS sub models by their unique ID. This enables e.g. a product to refer to all devices, processes, and plants that were involved in its manufacturing.</p>
+
+<!-- ![AAS Referencing and Exchange ilustration alt](images/aas_reference_and_exchange.png) -->
+
+<h3 id="integrating-live-process-data-from-assets">Integrating Live Process Data from Assets</h3>
+
+<p>Digital Twins shall represent the current state of an asset. Therefore, AAS sub models need to connect to real-world entities, e.g. devices or software systems, and provide access to live data through properties and services. A vibration sub model would for example provide recent measurements from vibration sensors.</p>
+
+<p>Eclipse BaSyx connects digital twins to real-world assets with data provider components that communicate through a variety of IoT, IIoT protocols, such as OPC UA, MQTT, http/REST, as well as field bus protocols with assets. AAS sub models optionally preprocess raw data, and provide data through sub model properties and services.</p>
+
+<p>Sub models may notify MQTT subscribers about relevant changes in property values to avoid polling of values.</p>
+
+<p><img src="images/live_process_aas.png" alt="Live Process data from asset ilustration alt" /></p>
+
+<h3 id="unified-interfaces-to-assets-data-and-everything-else">Unified Interfaces to Assets, Data, and Everything Else</h3>
+
+
+<figure class="img-right">
+    
+        <img src="./images/unified_interfaces_aas_data.png" />
+    
+    
+</figure>
+
+
+<p>Digital twins need to integrate a lot of data sources. AAS sub models may therefore serve as „plugins“, i.e. unified interfaces to legacy systems and information that need to be integrated into digitized manufacturing processes.</p>
+
+<p>This simplifies the integration of high specific systems, such as databases, web services, and ontologies that enable e.g. access to PLM data, or recipes.</p>
+
+<p>This enables the integration of existing data sources with proprietary and specialized APIs, which are not supported by the Eclipse BaSyx data provider component. A common use-case is the integration of e.g. apache Kafka streams. With the Eclipse BaSyx SDKs, everybody can develop tailored AAS sub models that connect to existing, or specific systems, and therefore serve as „plugins“ for the digitized manufacturing process.</p>
+
+<h3 id="interoperability">Interoperability</h3>
+
+<p>Digital twins based on AAS and AAS sub models digitize value chains. This requires e.g. inter-company interactions. Today, these interactions are limited by different protocols and data models, which limit data exchange abilities.</p>
+
+<p>Exchanging data requires a common understanding with respect to the meaning of data. The AAS and its sub models enable semantic tagging, to provide this meaning. By adding a semantic meaning to services and properties, one ensures that data is understood correctly, even without detail knowledge about underlying data models.</p>
+
+<p><img src="images/interoperability.png" alt="Interoperability ilustration alt" /></p>
+
+<h3 id="applications-tools">Applications &amp; Tools</h3>
+
+<p>Eclipse BaSyx provides pre-configured Industry 4.0 tools, and is compatible with ready-to-use (open-source) toolchains:</p>
+
+<ul>
+<li>The <a href="https://github.com/admin-shell-io/aasx-package-explorer"><em>AAS Package Explorer</em></a> enables users to create Asset Administration shells and AAS Sub Models for assets. It also enables the creation of new AAS types and sub model types.</li>
+<li>The BaSyx AAS Viewer application enables users to lookup AAS and sub model from a registry server, and displays AAS contents to enable process tracking.</li>
+<li>The open-source Eclipse Streamsheets application enables real-time data analytics, transformation and analysis.</li>
+<li>The open-source Grafana application visualizes data and enables the creation of dashboards and virtual control rooms.</li>
+<li>The open-source Node.Red application automates reaction to events, e.g. detected unusual sensor values.</li>
+</ul>
+
+<p><img src="images/application_and_tools.png" alt="Application and tools ilustration alt" /></p>
 
                         </div>
                         

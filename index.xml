@@ -67,6 +67,16 @@
     </item>
     
     <item>
+      <title>Concepts</title>
+      <link>https://staging.eclipse.org/basyx/concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/concepts/</guid>
+      <description>Asset Administration Shells (AAS) Many existing automation systems communicate using direct connections. One device must understand the protocols, encodings, and data models of all connected systems. If a system, e.g. a sensor is to be replaced, all dependent systems need to be updated, e.g. with an updated characteristic curve of a new sensor.
+Eclipse BaSyx realizes a bus like topology, the virtual automation bus. It enables end-to-end communication between all integrated assets using http/REST communication.</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://staging.eclipse.org/basyx/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
