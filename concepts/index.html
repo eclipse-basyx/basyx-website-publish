@@ -10,7 +10,7 @@
   <meta name="author" content="" />
 
   
-  <meta name="keywords" content="industrie 4.0, iot, basys 4.0, basys 4.2, basyx, smart production, digitalization, cyber physical systems, ecosystem, BaSyx offers, Digital Twin, Asset Administration Shell">	
+  <meta name="keywords" content="industrie 4.0, iot, basys 4.0, basys 4.2, basyx, smart production, digitalization, cyber physical systems, BaSyx offers, Digital Twin, Asset Administration Shell">	
   
 
   
@@ -125,12 +125,6 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/basyx/">Home</a>
-                    
-                  </li>
-                  
-                  <li class="dropdown">
-                    
                     <a href="/basyx/blog/">Blog</a>
                     
                   </li>
@@ -143,19 +137,43 @@
                   
                   <li class="dropdown">
                     
-                    <a href="https://wiki.eclipse.org/BaSyx">Documentation</a>
+                    <a href="/basyx/concepts/">Concepts</a>
                     
                   </li>
                   
                   <li class="dropdown">
                     
-                    <a href="https://github.com/eclipse-basyx">Download</a>
+                    <a href="/basyx/architecture/">Architecture</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/basyx/benefits/">Benefits</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/basyx/ecosystem/">Ecosystem</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/basyx/download/">Download</a>
                     
                   </li>
                   
                   <li class="dropdown">
                     
                     <a href="https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing">Contributing</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing">WIki</a>
                     
                   </li>
                   
@@ -222,6 +240,22 @@
 
 <!-- ![AAS Holistic ilustration alt](images/holistic_aas.png) -->
 
+<h3 id="digital-twins">Digital Twins</h3>
+
+<p>Digital twins are complete representations of real-world physical or non-physical assets. They represent the current state of the asset in the digital world, which includes for example sensor values and the state of actuators. A unified interface provides access to asset data, its state, and provided services. Digital twins also provide simulation models that predict the behavior of an asset in a particular situation, provide evidences for substantiated decisions, and enable what-if analysis.</p>
+
+<p><img src="images/digital_twins.png" alt="Fig 3: Digital Twins ilustration" /></p>
+
+<p>The Asset Administration shell is an agreed technical foundation for digital twins. AAS sub models tailor the generic AAS to the specific needs of assets, and provide access to specific properties, states, services, and simulation models. Sub models turn a generic AS into the digital twin of an asset that represents all kinds of assets, and still provides access to asset specific aspects with a unified API.</p>
+
+<h3 id="digital-supply-chains">Digital Supply Chains</h3>
+
+<p>Complex products consist of numerous components from different suppliers. Modern product tracking enables the creation of digital twins for products that track the complete history of a product, and enables the creation of digital product passports. This includes for example the owner, deadlines, pricing, change in product value, suppliers, parts, and the CO2 footprint.</p>
+
+<p>Digital twins enable data exchange along value chains to identify e.g. a shortcoming in supplies, or to e.g. calculate the CO2 footprint of a product. The Eclipse BaSyx Industry 4.0 midleware supports the creation of product digital twins to enable digitized production and data exchange between stakeholders.</p>
+
+<p><img src="images/digital_supply_chains.png" alt="Fig 4: Digital Twins ilustration" /></p>
+
 <h3 id="asset-administration-shells-aas">Asset Administration Shells (AAS)</h3>
 
 <p>Many existing automation systems communicate using direct connections. One device must understand the protocols, encodings, and data models of all connected systems. If a system, e.g. a sensor is to be replaced, all dependent systems need to be updated, e.g. with an updated characteristic curve of a new sensor.</p>
@@ -267,17 +301,28 @@
 
 <!-- ![AAS Referencing and Exchange ilustration alt](images/aas_reference_and_exchange.png) -->
 
-<h3 id="integrating-live-process-data-from-assets">Integrating Live Process Data from Assets</h3>
+<h3 id="interoperability">Interoperability</h3>
 
-<p>Digital Twins shall represent the current state of an asset. Therefore, AAS sub models need to connect to real-world entities, e.g. devices or software systems, and provide access to live data through properties and services. A vibration sub model would for example provide recent measurements from vibration sensors.</p>
+<p>Digital twins based on AAS and AAS sub models digitize value chains. This requires e.g. inter-company interactions. Today, these interactions are limited by different protocols and data models, which limit data exchange abilities.</p>
 
-<p>Eclipse BaSyx connects digital twins to real-world assets with data provider components that communicate through a variety of IoT, IIoT protocols, such as OPC UA, MQTT, http/REST, as well as field bus protocols with assets. AAS sub models optionally preprocess raw data, and provide data through sub model properties and services.</p>
+<p>Exchanging data requires a common understanding with respect to the meaning of data. The AAS and its sub models enable semantic tagging, to provide this meaning. By adding a semantic meaning to services and properties, one ensures that data is understood correctly, even without detail knowledge about underlying data models.</p>
 
-<p>Sub models may notify MQTT subscribers about relevant changes in property values to avoid polling of values.</p>
+<p><img src="images/interoperability.png" alt="Interoperability ilustration alt" /></p>
 
-<p><img src="images/live_process_aas.png" alt="Live Process data from asset ilustration alt" /></p>
+<!--
 
-<h3 id="unified-interfaces-to-assets-data-and-everything-else">Unified Interfaces to Assets, Data, and Everything Else</h3>
+### Integrating Live Process Data from Assets
+
+Digital Twins shall represent the current state of an asset. Therefore, AAS sub models need to connect to real-world entities, e.g. devices or software systems, and provide access to live data through properties and services. A vibration sub model would for example provide recent measurements from vibration sensors.
+
+Eclipse BaSyx connects digital twins to real-world assets with data provider components that communicate through a variety of IoT, IIoT protocols, such as OPC UA, MQTT, http/REST, as well as field bus protocols with assets. AAS sub models optionally preprocess raw data, and provide data through sub model properties and services. 
+
+Sub models may notify MQTT subscribers about relevant changes in property values to avoid polling of values. 
+
+![Live Process data from asset ilustration alt](images/live_process_aas.png)
+
+
+### Unified Interfaces to Assets, Data, and Everything Else
 
 
 <figure class="img-right">
@@ -288,33 +333,25 @@
 </figure>
 
 
-<p>Digital twins need to integrate a lot of data sources. AAS sub models may therefore serve as „plugins“, i.e. unified interfaces to legacy systems and information that need to be integrated into digitized manufacturing processes.</p>
+Digital twins need to integrate a lot of data sources. AAS sub models may therefore serve as „plugins“, i.e. unified interfaces to legacy systems and information that need to be integrated into digitized manufacturing processes.
 
-<p>This simplifies the integration of high specific systems, such as databases, web services, and ontologies that enable e.g. access to PLM data, or recipes.</p>
+This simplifies the integration of high specific systems, such as databases, web services, and ontologies that enable e.g. access to PLM data, or recipes. 
 
-<p>This enables the integration of existing data sources with proprietary and specialized APIs, which are not supported by the Eclipse BaSyx data provider component. A common use-case is the integration of e.g. apache Kafka streams. With the Eclipse BaSyx SDKs, everybody can develop tailored AAS sub models that connect to existing, or specific systems, and therefore serve as „plugins“ for the digitized manufacturing process.</p>
+This enables the integration of existing data sources with proprietary and specialized APIs, which are not supported by the Eclipse BaSyx data provider component. A common use-case is the integration of e.g. apache Kafka streams. With the Eclipse BaSyx SDKs, everybody can develop tailored AAS sub models that connect to existing, or specific systems, and therefore serve as „plugins“ for the digitized manufacturing process.
 
-<h3 id="interoperability">Interoperability</h3>
 
-<p>Digital twins based on AAS and AAS sub models digitize value chains. This requires e.g. inter-company interactions. Today, these interactions are limited by different protocols and data models, which limit data exchange abilities.</p>
+### Applications & Tools
 
-<p>Exchanging data requires a common understanding with respect to the meaning of data. The AAS and its sub models enable semantic tagging, to provide this meaning. By adding a semantic meaning to services and properties, one ensures that data is understood correctly, even without detail knowledge about underlying data models.</p>
+Eclipse BaSyx provides pre-configured Industry 4.0 tools, and is compatible with ready-to-use (open-source) toolchains:
 
-<p><img src="images/interoperability.png" alt="Interoperability ilustration alt" /></p>
+* The [*AAS Package Explorer*](https://github.com/admin-shell-io/aasx-package-explorer) enables users to create Asset Administration shells and AAS Sub Models for assets. It also enables the creation of new AAS types and sub model types.
+* The BaSyx AAS Viewer application enables users to lookup AAS and sub model from a registry server, and displays AAS contents to enable process tracking.
+* The open-source Eclipse Streamsheets application enables real-time data analytics, transformation and analysis.
+* The open-source Grafana application visualizes data and enables the creation of dashboards and virtual control rooms.
+* The open-source Node.Red application automates reaction to events, e.g. detected unusual sensor values.
 
-<h3 id="applications-tools">Applications &amp; Tools</h3>
-
-<p>Eclipse BaSyx provides pre-configured Industry 4.0 tools, and is compatible with ready-to-use (open-source) toolchains:</p>
-
-<ul>
-<li>The <a href="https://github.com/admin-shell-io/aasx-package-explorer"><em>AAS Package Explorer</em></a> enables users to create Asset Administration shells and AAS Sub Models for assets. It also enables the creation of new AAS types and sub model types.</li>
-<li>The BaSyx AAS Viewer application enables users to lookup AAS and sub model from a registry server, and displays AAS contents to enable process tracking.</li>
-<li>The open-source Eclipse Streamsheets application enables real-time data analytics, transformation and analysis.</li>
-<li>The open-source Grafana application visualizes data and enables the creation of dashboards and virtual control rooms.</li>
-<li>The open-source Node.Red application automates reaction to events, e.g. detected unusual sensor values.</li>
-</ul>
-
-<p><img src="images/application_and_tools.png" alt="Application and tools ilustration alt" /></p>
+![Application and tools ilustration alt](images/application_and_tools.png)
+-->
 
                         </div>
                         
@@ -351,9 +388,6 @@
         </form>
     </div>
 </div>
-
-
-
 
 
 

@@ -2168,6 +2168,29 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-post #post-content {
   margin-bottom: 20px;
 }
+#post-content p > img {
+  /*border: green 3px dashed;*/
+  display:table-cell;
+  vertical-align:middle;
+  margin:auto;
+  max-width: 847px;
+}
+#post-content .img-right {
+  float: right;    
+  margin: 0 0 0 20px;
+}
+#post-content .img-left {
+  position: relative;
+  float: left;    
+  margin: 5px 20px 30px 0;
+  clear: left;
+}
+#post-content .ico-left {
+  position: relative;
+  float: left;    
+  margin: 5px 30px 2px 0;
+  clear: left;
+}
 #blog-post .comment {
   margin-bottom: 25px;
 }

@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://staging.eclipse.org/basyx/ecosystem/bosch/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/ecosystem/abb/</loc>
+    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://staging.eclipse.org/basyx/blog/2021/02/17/industry40becomespractical/</loc>
     <lastmod>2021-02-17T00:00:00+00:00</lastmod>
   </url>
@@ -32,6 +42,14 @@
   </url>
   
   <url>
+    <loc>https://staging.eclipse.org/basyx/architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/benefits/</loc>
+  </url>
+  
+  <url>
     <loc>https://staging.eclipse.org/basyx/blog/</loc>
     <lastmod>2021-02-17T00:00:00+00:00</lastmod>
   </url>
@@ -56,12 +74,30 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/</loc>
-    <lastmod>2021-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/ecosystem/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://staging.eclipse.org/basyx/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/categories/industry/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/categories/simulation/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
