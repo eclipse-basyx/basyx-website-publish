@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ecosystems on Eclipse BaSyx</title>
+    <title>Ecosystem on Eclipse BaSyx</title>
     <link>https://staging.eclipse.org/basyx/ecosystem/</link>
-    <description>Recent content in Ecosystems on Eclipse BaSyx</description>
+    <description>Recent content in Ecosystem on Eclipse BaSyx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate>
@@ -21,12 +21,66 @@
     </item>
     
     <item>
+      <title>Bosch Rexroth AG</title>
+      <link>https://staging.eclipse.org/basyx/ecosystem/boschrexroth/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/ecosystem/boschrexroth/</guid>
+      <description>Bosch Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae augue nec fermentum. Vivamus est ante, gravida id mauris id, commodo condimentum libero. Donec at felis accumsan, elementum nulla ac, luctus sapien. Curabitur mauris turpis, placerat ac est ut, luctus consequat augue. Nullam eget congue leo. Vestibulum eu semper libero, ac consectetur purus.</description>
+    </item>
+    
+    <item>
+      <title>DFKI GmbH</title>
+      <link>https://staging.eclipse.org/basyx/ecosystem/dfki/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/ecosystem/dfki/</guid>
+      <description>DFKI - Deutsches Forschungszentrum für Künstliche Intelligenz Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae augue nec fermentum. Vivamus est ante, gravida id mauris id, commodo condimentum libero. Donec at felis accumsan, elementum nulla ac, luctus sapien. Curabitur mauris turpis, placerat ac est ut, luctus consequat augue. Nullam eget congue leo. Vestibulum eu semper libero, ac consectetur purus.</description>
+    </item>
+    
+    <item>
+      <title>Lenze SE</title>
+      <link>https://staging.eclipse.org/basyx/ecosystem/lenze/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/ecosystem/lenze/</guid>
+      <description>Lenze SE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae augue nec fermentum. Vivamus est ante, gravida id mauris id, commodo condimentum libero. Donec at felis accumsan, elementum nulla ac, luctus sapien. Curabitur mauris turpis, placerat ac est ut, luctus consequat augue. Nullam eget congue leo. Vestibulum eu semper libero, ac consectetur purus.</description>
+    </item>
+    
+    <item>
+      <title>NetApp</title>
+      <link>https://staging.eclipse.org/basyx/ecosystem/netapp/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/ecosystem/netapp/</guid>
+      <description>NetApp Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae augue nec fermentum. Vivamus est ante, gravida id mauris id, commodo condimentum libero. Donec at felis accumsan, elementum nulla ac, luctus sapien. Curabitur mauris turpis, placerat ac est ut, luctus consequat augue. Nullam eget congue leo. Vestibulum eu semper libero, ac consectetur purus.</description>
+    </item>
+    
+    <item>
+      <title>Objective Partner AG</title>
+      <link>https://staging.eclipse.org/basyx/ecosystem/objectivepartner/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/ecosystem/objectivepartner/</guid>
+      <description>Lenze SE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae augue nec fermentum. Vivamus est ante, gravida id mauris id, commodo condimentum libero. Donec at felis accumsan, elementum nulla ac, luctus sapien. Curabitur mauris turpis, placerat ac est ut, luctus consequat augue. Nullam eget congue leo. Vestibulum eu semper libero, ac consectetur purus.</description>
+    </item>
+    
+    <item>
+      <title>XITASO GmbH</title>
+      <link>https://staging.eclipse.org/basyx/ecosystem/xitaso/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/ecosystem/xitaso/</guid>
+      <description>XITASO GmbH Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae augue nec fermentum. Vivamus est ante, gravida id mauris id, commodo condimentum libero. Donec at felis accumsan, elementum nulla ac, luctus sapien. Curabitur mauris turpis, placerat ac est ut, luctus consequat augue. Nullam eget congue leo. Vestibulum eu semper libero, ac consectetur purus.</description>
+    </item>
+    
+    <item>
       <title>ABB</title>
       <link>https://staging.eclipse.org/basyx/ecosystem/abb/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://staging.eclipse.org/basyx/ecosystem/abb/</guid>
-      <description>ABB Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Website: http://www.abb.com Services: Developer, Industry</description>
+      <description>ABB Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae augue nec fermentum. Vivamus est ante, gravida id mauris id, commodo condimentum libero. Donec at felis accumsan, elementum nulla ac, luctus sapien. Curabitur mauris turpis, placerat ac est ut, luctus consequat augue. Nullam eget congue leo. Vestibulum eu semper libero, ac consectetur purus.</description>
     </item>
     
   </channel>

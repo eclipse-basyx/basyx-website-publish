@@ -8,6 +8,36 @@
   </url>
   
   <url>
+    <loc>https://staging.eclipse.org/basyx/ecosystem/boschrexroth/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/ecosystem/dfki/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/ecosystem/lenze/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/ecosystem/netapp/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/ecosystem/objectivepartner/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/ecosystem/xitaso/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://staging.eclipse.org/basyx/ecosystem/abb/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url>
@@ -42,7 +72,19 @@
   </url>
   
   <url>
+    <loc>https://staging.eclipse.org/basyx/categories/ai/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://staging.eclipse.org/basyx/architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/categories/automation/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -55,7 +97,20 @@
   </url>
   
   <url>
+    <loc>https://staging.eclipse.org/basyx/categories/business-models/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://staging.eclipse.org/basyx/categories/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/categories/cloud/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,6 +128,18 @@
   </url>
   
   <url>
+    <loc>https://staging.eclipse.org/basyx/categories/data-driven/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/categories/data-management/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://staging.eclipse.org/basyx/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -80,6 +147,12 @@
   
   <url>
     <loc>https://staging.eclipse.org/basyx/ecosystem/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/categories/engineering/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -95,7 +168,25 @@
   </url>
   
   <url>
+    <loc>https://staging.eclipse.org/basyx/categories/research/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/categories/robotics/</loc>
+    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://staging.eclipse.org/basyx/categories/simulation/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://staging.eclipse.org/basyx/categories/software-engineering/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

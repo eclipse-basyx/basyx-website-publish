@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Engineering on Eclipse BaSyx</title>
+    <link>https://staging.eclipse.org/basyx/categories/engineering/</link>
+    <description>Recent content in Engineering on Eclipse BaSyx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://staging.eclipse.org/basyx/categories/engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bosch Rexroth AG</title>
+      <link>https://staging.eclipse.org/basyx/ecosystem/boschrexroth/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/ecosystem/boschrexroth/</guid>
+      <description>Bosch Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae augue nec fermentum. Vivamus est ante, gravida id mauris id, commodo condimentum libero. Donec at felis accumsan, elementum nulla ac, luctus sapien. Curabitur mauris turpis, placerat ac est ut, luctus consequat augue. Nullam eget congue leo. Vestibulum eu semper libero, ac consectetur purus.</description>
+    </item>
+    
+    <item>
+      <title>Lenze SE</title>
+      <link>https://staging.eclipse.org/basyx/ecosystem/lenze/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/ecosystem/lenze/</guid>
+      <description>Lenze SE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum vitae augue nec fermentum. Vivamus est ante, gravida id mauris id, commodo condimentum libero. Donec at felis accumsan, elementum nulla ac, luctus sapien. Curabitur mauris turpis, placerat ac est ut, luctus consequat augue. Nullam eget congue leo. Vestibulum eu semper libero, ac consectetur purus.</description>
+    </item>
+    
+  </channel>
+</rss>

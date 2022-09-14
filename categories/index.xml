@@ -6,9 +6,73 @@
     <description>Recent content in Categories on Eclipse BaSyx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://staging.eclipse.org/basyx/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ai</title>
+      <link>https://staging.eclipse.org/basyx/categories/ai/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>https://staging.eclipse.org/basyx/categories/automation/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business Models</title>
+      <link>https://staging.eclipse.org/basyx/categories/business-models/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/business-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://staging.eclipse.org/basyx/categories/cloud/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Driven</title>
+      <link>https://staging.eclipse.org/basyx/categories/data-driven/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/data-driven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Management</title>
+      <link>https://staging.eclipse.org/basyx/categories/data-management/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/data-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engineering</title>
+      <link>https://staging.eclipse.org/basyx/categories/engineering/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/engineering/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Industry</title>
@@ -20,11 +84,38 @@
     </item>
     
     <item>
+      <title>Research</title>
+      <link>https://staging.eclipse.org/basyx/categories/research/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>https://staging.eclipse.org/basyx/categories/robotics/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Simulation</title>
       <link>https://staging.eclipse.org/basyx/categories/simulation/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://staging.eclipse.org/basyx/categories/simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Engineering</title>
+      <link>https://staging.eclipse.org/basyx/categories/software-engineering/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://staging.eclipse.org/basyx/categories/software-engineering/</guid>
       <description></description>
     </item>
     
