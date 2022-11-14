@@ -6,7 +6,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Industry 4.0 becomes practical</title>
+  <title>Architecture</title>
   <meta name="author" content="" />
 
   
@@ -74,9 +74,9 @@
   <link rel="alternate" href="https://www.eclipse.org/index.xml" type="application/rss+xml" title="Eclipse BaSyx">
 
   
-  <meta property="og:title" content="Industry 4.0 becomes practical" />
+  <meta property="og:title" content="Architecture" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/basyx/blog/2021/02/17/industry40becomespractical//" />
+  <meta property="og:url" content="/basyx/architecture//" />
   <meta property="og:image" content="img/basyxlogo.png" />
   
   
@@ -107,9 +107,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="https://www.eclipse.org/basyx/">
-                    <img src="https://www.eclipse.org/basyx/img/basyxlogo.png" alt="Industry 4.0 becomes practical logo" class="hidden-xs hidden-sm">
-                    <img src="https://www.eclipse.org/basyx/img/basyxlogo.png" alt="Industry 4.0 becomes practical logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Industry 4.0 becomes practical - go to homepage</span>
+                    <img src="https://www.eclipse.org/basyx/img/basyxlogo.png" alt="Architecture logo" class="hidden-xs hidden-sm">
+                    <img src="https://www.eclipse.org/basyx/img/basyxlogo.png" alt="Architecture logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Architecture - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -200,7 +200,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Industry 4.0 becomes practical</h1>
+                <h1>Architecture</h1>
             </div>
         </div>
     </div>
@@ -216,39 +216,239 @@
 
                     <div class="col-md-9" id="blog-post">											
 						<div class="image" align="center">
-														
-								  <img  src="https://www.eclipse.org/basyx/img/banners/banner-2.jpg" class="img-responsive" alt="">													
+													
+								  <img src="https://www.eclipse.org/basyx/img/placeholder.png" class="img-responsive" alt="">							
 							
 						</div>
 
-                        <p class="text-muted text-uppercase mb-small text-right"> © Fraunhofer IESE |   February 17, 2021 </p>
+                        <p class="text-muted text-uppercase mb-small text-right">   </p>
 						
                         <div id="post-content">
                           
 
-<h2 id="fraunhofer-iese-brings-flexible-manufacturing-to-companies-with-eclipse-basyx">Fraunhofer IESE brings flexible manufacturing to companies with Eclipse BaSyx.</h2>
+<h3 id="digital-twins-with-asset-administration-shells">Digital Twins with Asset Administration Shells</h3>
 
-<p>One of the goals of industry 4.0 is to be able to exchange devices with the same capabilities in a production plant without having to change the control system. The BaSys 4.0 project, funded by the German Federal Ministry of Education and Research, aims to solve this challenge in a practical way with the concept of service-based manufacturing. With the help of the Eclipse BaSyx, Fraunhofer IESE from Kaiserslautern and other project partners enable even small and medium-sized companies to make convertible manufacturing a reality.
-The term Industry 4.0 does not stand for a single technology, but for a new production concept. It is about adapting production to constantly increasing quality requirements, more rapidly changing markets and a greater product variety. The changeable production in lot size 1 is one of the main goals. However, it is also about open, highly networked automation systems that achieve end-to-end networking and thus enable access to production data, product information and the status of devices at any given time. Big-data analyses find optimization potential to predict errors and to work even more efficiently. Companies cannot achieve these goals with the typical IT infrastructure found in production plants today. Eclipse BaSyx, the open source Industrie 4.0 platform, helps to make production fit for the future.</p>
 
-<h2 id="with-service-oriented-manufacturing-to-changeable-production">With service-oriented manufacturing to changeable production.</h2>
+<figure class="img-right">
+    
+        <img src="./images/digital-twins_with_aaset-administration-shell.png" />
+    
+    
+</figure>
 
-<p>The national reference research project BaSys 4.2 designs the middleware for industry 4.0 applications. The implementation project Eclipse BaSyx provides these as an open source reference implementation and implements central industry 4.0 concepts. This enables companies to develop their own solutions for Industry 4.0 today. BaSys 4.0 remains closely linked to the standardization committees, such as Platform Industrie 4.0, in order to implement standards (e.g. the Asset Administration Shell) and share valuable experience with the committees.
-The core of Eclipse BaSyx is service-oriented manufacturing. This separates the implementation of a service from the production process that invokes the service. This addresses a central problem in the transformation of today&rsquo;s production processes: programmable logic controllers (PLC) define the production process, which is distributed over implementations in numerous PLCs. Changing the process in one place has side effects that require adjustments in many PLCs, for example, because the meaning of signals or messages changes. This leads to expensive downtimes. Service-oriented manufacturing separates the services from the process. The manufacturing process is described in an orchestrator that calls the services. Thanks to Eclipse BaSyx, PLCs no longer need to know when which service is required for the production of a workpiece and therefore do not need to be reprogrammed when the service sequence for a production process changes. Only the orchestrator is changed. Since it is defined at a higher level of abstraction, for example using Business Process Modeling Notation (BPMN), this change is much easier and therefore more efficient than reprogramming a PLC.</p>
 
-<h2 id="the-asset-administration-shell-as-digital-twin">The Asset Administration Shell as Digital Twin</h2>
+<p>Eclipse BaSyx uses the Asset Administration Shell (AAS) as base technology for digital twins. The AAS is the digital identity of an asset and links to AAS sub models that provide asset specific information, simulation models, and services. Eclipse BaSyx supports three kinds of sub models. The same AAS may link to any number of each kind:</p>
 
-<p>In Eclipse BaSyx the Asset Administration Shell serves as a general communication interface. It is the digital twin of components and devices and is currently being standardized by Platform Industrie 4.0. The basic idea is that every asset in production, e.g. a machine, a production line, a product or even a worker has a corresponding management shell, which contains or refers to all information about this asset in digital form.
-This standardization of access to assets by means of Asset Administration Shells not only increases the reusability of software, but also the changeability. This means that devices with the same production capabilities can be exchanged for each other at will without having to change a control system.</p>
+<ul>
+<li>Static sub models provide access to data that only changes seldomly, such as documents, electronic certificates, data sheets, and digital name plates. Static sub model data may be serialized into files and sent to suppliers or customers, for example when the physical asset is sold or received. Static sub models are created for example with the AASX package explorer and saved as files.</li>
+<li>Dynamic sub models enable unified access to live asset data. This kind of sub model represents for example raw data, i.e. the state of a device, or higher-level data, such as the location of a product in the process. Dynamic sub models also support behavior (using program code) that implements data preprocessing and analysis. Dynamic sub models are created with the Eclipse BaSyx Software Development Kits (SDKs.)</li>
+<li>Control component sub models enable unified access to asset operation modes, services, and capabilities. They are one foundation for the service-oriented architecture of Eclipse BaSyx.<br /></li>
+</ul>
 
-<h2 id="the-advantages-of-eclipse-basyx-are-manifold">The advantages of Eclipse BaSyx are manifold</h2>
+<h3 id="eclipse-basyx-architecture">Eclipse BaSyx Architecture</h3>
 
-<p>In addition to economical production up to lot size 1, Eclipse BaSyx offers further advantages. For example, applications that predict maintenance intervals can be implemented. In order to avoid downtimes, companies can change the configuration of the production process in advance - practising &ldquo;Predictive Maintenance&rdquo; - and thus avoid downtimes. In addition, the middleware enables the production process to be monitored from the office floor. Today, if a new device is to be connected to a production cell, the change must be transmitted over several levels on the shop floor until it reaches the systems on the office floor. This makes the maintenance of production equipment and systems very inflexible. With Eclipse BaSyx this becomes possible. In addition to the required device maintenance, the real-time data is available for various analyses, e.g. for optimizing the manufacturing process or to ensure product quality and reduce scrap.</p>
+<p>Eclipse BaSyx realizes a virtual manufacturing plant. It connects all digital twins to a virtual communication bus that enables end-to-end connectivity across layers, and optionally across companies.</p>
 
-<h2 id="with-shopfloor-4-0-industrie-4-0-goes-into-practice-as-a-complete-package">With Shopfloor 4.0, Industrie 4.0 goes into practice as a complete package</h2>
+<p><img src="images/eclipse_basyx_architecture.png" alt="Eclipse BaSyx Architecture ilustration alt" /></p>
 
-<p>Fraunhofer IESE, NetApp and objective partner are jointly developing the Industry 4.0 solution &ldquo;Shopfloor 4.0&rdquo;. NetApp provides the IT stack, Fraunhofer IESE integrates Eclipse BaSyx, and objective partner provides first-level support for the solution which integrates Eclipse BaSyx with SAP processes.
-Information about Shopfloor 4.0: <a href="https://www.objective-partner.de/shopfloor-40-flexibilitaet-in-der-fertigung/">https://www.objective-partner.de/shopfloor-40-flexibilitaet-in-der-fertigung/</a></p>
+<p>##</p>
+
+<ul>
+<li><p><strong>Enterprise level</strong>
+Applications on the enterprise level use digital twins to control, optimize and monitor the digital factory, and to negotiate with external stakeholders.</p></li>
+
+<li><p><strong>Middleware level</strong>
+The middleware consists of asset administration shells for important systems, devices, products, and processes. Group control components orchestrate the manufacturing process based on recipes. The registry service enables localization of AAS and sub models.</p></li>
+
+<li><p><strong>Digital process level</strong>
+The digital process level consists of dynamic sub models that interface with physical assets and enable access to their state and services. Control components implement service interfaces for controlling resources and processes.</p></li>
+
+<li><p><strong>Process level</strong>
+The process level is the manufacturing process and its assets, which may be real or simulated assets. Assets may be physical, or non-physical, and cover all existing systems such as ERP and MES systems, PLM systems, and databases. The real-world assets interact with dynamic sub models and control components through OPC-UA, MQTT or field bus protocols.</p></li>
+</ul>
+
+<h3 id="aas-higher-level-interfaces">AAS – Higher-level Interfaces</h3>
+
+
+<figure class="img-right">
+    
+        <img src="./images/aas-high-level-interface.png" />
+    
+    
+</figure>
+
+
+<p>Digital twins realize a high-level interface to factories, manufacturing processes, and assets. A single AAS sub model enables access to raw device data, e.g. the state (open/closed) of a light barrier by providing a facade that delegates requests for example to the device OPC UA servers.</p>
+
+<p>Other sub models combine this data into a digital twin that tracks for example the position of an asset in a factory, and therefore implements a higher-level view based on the combined data from multiple assets. Digital Twins therefore create hierarchies to implement more abstract views and services that improve understandability and controllability of complex manufacturing environments, and that therefore decrease maintenance and development cost.</p>
+
+<h3 id="data-bridge">Data Bridge</h3>
+
+
+<figure class="img-right">
+    
+        <img src="./images/data-bridge.png" />
+    
+    
+</figure>
+
+
+<p>The Eclipse BaSyx data bridge connects real and simulated assets with Eclipse BaSyx dynamic sub models. It supports a variety of IoT, IIoT protocols, such as OPC UA, MQTT, http/REST, as well as field bus protocols.</p>
+
+<p>With the MQTT protocol, sub models can notify subscribers about relevant changes in property values and other relevant events to avoid the need to constantly poll values.</p>
+
+<h3 id="data-storage">Data Storage</h3>
+
+<p>The Eclipse BaSyx enables integration with SQL, NoSQL databases, and S3 cloud storage. The engineer has the flexibility to decide what is the best storage design given the use case.</p>
+
+<p>It supports easy connectivity with Postgres or MongoDB via configuration files. AAS, sub models, and property values can then be persisted according to the need. Integration with S3 enables saving sub models and data in the cloud in order to perform robust data analysis using for example artificial intelligence and big data methods.</p>
+
+<h3 id="service-oriented-manufacturing-architecture">Service-oriented Manufacturing Architecture</h3>
+
+
+<figure class="img-left">
+    
+        <img src="./images/service-oriented-architecture.png" />
+    
+    
+</figure>
+
+
+<p>Service-Oriented Architectures are the key to changeable systems. Eclipse BaSyx implements a service-oriented manufacturing architecture that operates on manufacturing services, and product recipes.</p>
+
+<p>Assets export re-useable services via control components that implement re-useable and parameterizable tasks, such as the drilling of individual holes. Services are not product specific, in fact, they have no information about the product that they are creating. Production processes are created by orchestrating services into production processes. Group control components utilize the unified interface of control components to combine services into processes. Group control components implement the same interface. Therefore, a hierarchy of group control components can implement complex hierarchical processes.</p>
+
+<p>This is based on recipes that are defined in the Digital Twins of products. AAS sub models define recipes with the required process for creating a product. AAS sub models of Device Digital Twins define capabilities, and describe the quality of available production services, as well as associated cost and additional information, such as the required CO2 footprint. The orchestrator (we use the Camunda Engine) evaluates product and device Digital Twins, calculates schedules and production plans, controls the manufacturing of products, and therefore implements an efficient Lot-Size 1 production. Operating of multiple orchestrators in hierarchies improves scalability.</p>
+
+<h3 id="eclipse-basyx-main-components">Eclipse BaSyx - Main Components</h3>
+
+<!--
+<figure class="ico-left">
+    
+        <img src="./images/ico_aas.png" />
+    
+    
+</figure>
+-->
+
+<p><strong>Asset Administration Shell (AAS) Server component</strong></p>
+
+<ul>
+<li>Provides AAS to other components</li>
+<li>Serialize/Load AAS from/to AASX, JSON, XML</li>
+</ul>
+
+<p>###</p>
+
+<!--
+<figure class="ico-left">
+    
+        <img src="./images/ico_sm.png" />
+    
+    
+</figure>
+-->
+
+<p><strong>AAS Server component (for sub models)</strong></p>
+
+<ul>
+<li>Enables distributed deployment of sub-models</li>
+<li>Support sub models with active code (e.g. preprocessing)</li>
+</ul>
+
+<!--
+<figure class="ico-left">
+    
+        <img src="./images/ico_registry.png" />
+    
+    
+</figure>
+-->
+
+<p><strong>AAS Registry component</strong></p>
+
+<ul>
+<li>Enables lookup and retrieval of AAS descriptors</li>
+<li>WiP: Cascading of AAS registries</li>
+</ul>
+
+<!--
+<figure class="ico-left">
+    
+        <img src="./images/ico_storage.png" />
+    
+    
+</figure>
+-->
+
+<p><strong>Storage components</strong></p>
+
+<ul>
+<li>Persist data. Server/Registry components do not maintain a state.</li>
+</ul>
+
+<!--
+<figure class="ico-left">
+    
+        <img src="./images/ico_analysis.png" />
+    
+    
+</figure>
+-->
+
+<p><strong>Ready-to-use applications for live data analysis</strong></p>
+
+<ul>
+<li>Eclipse Grafana integration (Dashboard application)</li>
+<li>Streamsheets integration (Real-time Excel)</li>
+</ul>
+
+<!--
+<figure class="ico-left">
+    
+        <img src="./images/ico_preprocess.png" />
+    
+    
+</figure>
+-->
+
+<p><strong>Live event handling application</strong></p>
+
+<ul>
+<li>NodeRED integration (automated event processing)</li>
+</ul>
+
+<!--
+<figure class="ico-left">
+    
+        <img src="./images/ico_bus-connector.png" />
+    
+    
+</figure>
+-->
+
+<p><strong>Device connectivity</strong></p>
+
+<ul>
+<li>Support for OPC-UA, MQTT, HTTP</li>
+<li>WiP: PLC4X integration for fieldbus protocols</li>
+</ul>
+
+<!--
+<figure class="ico-left">
+    
+        <img src="./images/ico_control-components.png" />
+    
+    
+</figure>
+-->
+
+<p><strong>True digital twins</strong></p>
+
+<ul>
+<li>Control components and group components</li>
+<li>Enable controlling of processes and process steps</li>
+</ul>
 
                         </div>
                         

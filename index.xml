@@ -63,7 +63,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.eclipse.org/basyx/about/</guid>
-      <description>Eclipse BaSyx is the open source platform for next generation automation. It implements key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell as standardized digital twin. Our mission is to provide a free software platform that enables all interested parties, large and small companies, research institutes, academia, and interested persons, to participate in and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the Industrie 4.</description>
+      <description>What is BaSyx Eclipse BaSyx is the open source platform for next generation automation. It implements key concepts defined by Platform Industrie 4.0, such as the Asset Administration Shell as standardized digital twin. Our mission is to provide a free software platform that enables all interested parties, large and small companies, research institutes, academia, and interested persons, to participate in and to shape the fourth industrial revolution. We believe that the availability of a free reference technology platform is a key success factor for the Industrie 4.</description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://www.eclipse.org/basyx/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/architecture/</guid>
+      <description>Digital Twins with Asset Administration Shells  Eclipse BaSyx uses the Asset Administration Shell (AAS) as base technology for digital twins. The AAS is the digital identity of an asset and links to AAS sub models that provide asset specific information, simulation models, and services. Eclipse BaSyx supports three kinds of sub models. The same AAS may link to any number of each kind:
+ Static sub models provide access to data that only changes seldomly, such as documents, electronic certificates, data sheets, and digital name plates.</description>
+    </item>
+    
+    <item>
+      <title>Benefits</title>
+      <link>https://www.eclipse.org/basyx/benefits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/benefits/</guid>
+      <description>End-to-End Digitization End-to-end digitization integrates all assets into one virtual space. It realizes a holistic digital twin that covers all kinds of assets – for example devices, products, and processes. This enables virtualization and optimization of individual assets, manufacturing plants, and whole supply chains.
+Lot Size 1 Production Changes in automation processes requires developers to adapt PLC programs, MES components, and requires the testing of all changes. Every problem that occurs delays the re-start of a production line, and is therefore highly expensive.</description>
     </item>
     
     <item>
