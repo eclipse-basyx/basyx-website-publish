@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concepts</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="industrie 4.0, iot, basys 4.0, basys 4.2, basyx, smart production, digitalization, cyber physical systems, ecosystem, BaSyx offers, Digital Twin, Asset Administration Shell">	
+  
+
+  
+  <meta name="description" content="Eclipse BaSyx Community Website">	
+  
+
+  <meta name="generator" content="Hugo 0.42.1" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="https://www.eclipse.org/basyx/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="https://www.eclipse.org/basyx/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+  
+  <link href="https://www.eclipse.org/basyx/css/style.basyx.css" rel="stylesheet" id="theme-stylesheet">
+
+
+  
+  <link href="https://www.eclipse.org/basyx/css/custom.css" rel="stylesheet">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+	<link rel="apple-touch-icon" sizes="57x57" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="https://www.eclipse.org/basyx/img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.eclipse.org/basyx/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://www.eclipse.org/basyx/img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.eclipse.org/basyx/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="https://www.eclipse.org/basyx/img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+  
+  
+
+  <link href="https://www.eclipse.org/basyx/css/owl.carousel.css" rel="stylesheet">
+  <link href="https://www.eclipse.org/basyx/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://www.eclipse.org/index.xml" type="application/rss+xml" title="Eclipse BaSyx">
+
+  
+  <meta property="og:title" content="Concepts" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/basyx/concepts//" />
+  <meta property="og:image" content="img/basyxlogo.png" />
+  
+  
+  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script> 
+  
+  <script src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/eclipsefdn.videos.min.js"></script>
+  <link href="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/eclipsefdn-video.min.css" rel="stylesheet" type="text/css">
+  <script>eclipseFdnVideos.replace();</script>
+
+  
+  <script defer src="/static/fontawesome/fontawesome-all.js"></script>
+</head>
+
+  
+  
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://www.eclipse.org/basyx/">
+                    <img src="https://www.eclipse.org/basyx/img/basyxlogo.png" alt="Concepts logo" class="hidden-xs hidden-sm">
+                    <img src="https://www.eclipse.org/basyx/img/basyxlogo.png" alt="Concepts logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Concepts - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/basyx/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/basyx/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/basyx/about/">About</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="https://wiki.eclipse.org/BaSyx">Documentation</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="https://github.com/eclipse-basyx">Download</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing">Contributing</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Concepts</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">											
+						<div class="image" align="center">
+													
+								  <img src="https://www.eclipse.org/basyx/img/placeholder.png" class="img-responsive" alt="">							
+							
+						</div>
+
+                        <p class="text-muted text-uppercase mb-small text-right">   </p>
+						
+                        <div id="post-content">
+                          
+
+<!-- ![AAS Holistic ilustration alt](images/holistic_aas.png) -->
+
+<h3 id="digital-twins">Digital Twins</h3>
+
+<p>Digital Twins are complete representations of any physical or non-physical real-world asset. They represent the current state of the asset though a harmonized interface, which covers for example the state of an asset, and sensor values. Digital twins also provide simulation models that predict asset behavior in a particular situation, provide evidences for substantiated decisions, and enable what-if analysis.</p>
+
+<p><img src="images/digital_twins.png" alt="Fig 3: Digital Twins ilustration" /></p>
+
+<p>The Asset Administration shell is an agreed technical foundation for digital twins. AAS sub models tailor the generic AAS to the specific needs of assets, and provide access to specific properties, states, services, and simulation models.</p>
+
+<h3 id="digital-supply-chains">Digital Supply Chains</h3>
+
+<p>Complex products consist of numerous components from different suppliers. Next-generation use-cases, such as the digital product passport and automated calculation of CO2 footprint requires an information exchange along the value chains. This requires a harmonized interface, and agreed languages and data models. The Eclipse BaSyx Industry 4.0 middleware therefore uses the Asset Administration Shell as foundation for ist digital twins, which has been standardized as IEC 63278-1 ED1.</p>
+
+<p><img src="images/digital_supply_chains.png" alt="Fig 4: Digital Twins ilustration" /></p>
+
+<h3 id="asset-administration-shells-aas">Asset Administration Shells (AAS)</h3>
+
+<p>Most existing automation systems communicate using proprietary protocols and data models. If for example a sensor is to be replaced, all dependent systems need to be updated as well to implement for example the characteristic curve of a new sensor.</p>
+
+<p>Eclipse BaSyx integrates all assets with their Asset administration Shell (AAS). The AAS is a unified representation for all relevant physical and non-physical assets, e.g. for products, orders, processes, devices, certificates, ERP/MES Systems, and everything else that is relevant.</p>
+
+<p>Every AAS is represented by at least one digital ID. This might be any unique ID, for example a URI, or the serial number of the represented real-world asset. The same AAS can be reached via multiple IDs, which enables additional IDs that are e.g. bound to a role in a factory.</p>
+
+<!-- ![AAS Data ilustration alt](images/aas_data.png) -->
+
+<h3 id="aas-submodels">AAS Submodels</h3>
+
+<p>Different types of assets require and provide different kinds of information and services. Therefore, also the Digital Twin of an asset must represent its different aspects. Asset Administration Shell sub models define data and service models for specific kinds of data and services, for example to represent a specific kind of sensor.</p>
+
+<p>A single AAS may define any number of sub models, but every sub model always belongs to exactly one AAS.</p>
+
+<p>Currently, most AAS sub models that are created are created for a specific purpose. However, ongoing standardization activities cover copmmonly used sub models and ensure a common understanding of a subset of important sub models that need to be exchanged along value chains.</p>
+
+<p><img src="images/aas_submodels.png" alt="AAS Submodels ilustration alt" /></p>
+
+<h3 id="aas-referencing-exchange-and-interoperability">AAS – Referencing, Exchange, and Interoperability</h3>
+
+<!-- 
+<figure class="img-left">
+    
+        <img src="./images/aas_reference_and_exchange.png" />
+    
+    
+</figure>
+ 
+![AAS Referencing and Exchange ilustration alt](images/aas_reference_and_exchange.png) -->
+
+<p>Optimizing production processes along value chains requires exchange of digital data. As Eclipse BaSyx represents all relevant assets with Asset Administration Shells, one AAS needs to refer to other AAS or AAS submodels. Therefore, AAS support references that refer to other AAS and sub models by a unique ID. This enables e.g. a product to refer to all devices, processes, and plants that were involved in its manufacturing.</p>
+
+<p>As data exchange also requires a common understanding of data, the AAS and its sub models enable semantic tagging. Semantic tags provide a meaning to properties and services. By adding a semantic tag, one ensures that data is understood correctly, even without detailed knowledge about underlying data models</p>
+
+<p><img src="images/interoperability.png" alt="Interoperability ilustration alt" /></p>
+
+<!--
+### Interoperability
+
+Digital twins based on AAS and AAS sub models digitize value chains. This requires e.g. inter-company interactions. Today, these interactions are limited by different protocols and data models, which limit data exchange abilities. 
+
+Exchanging data requires a common understanding with respect to the meaning of data. The AAS and its sub models enable semantic tagging, to provide this meaning. By adding a semantic meaning to services and properties, one ensures that data is understood correctly, even without detail knowledge about underlying data models.
+
+
+### Integrating Live Process Data from Assets
+
+Digital Twins shall represent the current state of an asset. Therefore, AAS sub models need to connect to real-world entities, e.g. devices or software systems, and provide access to live data through properties and services. A vibration sub model would for example provide recent measurements from vibration sensors.
+
+Eclipse BaSyx connects digital twins to real-world assets with data provider components that communicate through a variety of IoT, IIoT protocols, such as OPC UA, MQTT, http/REST, as well as field bus protocols with assets. AAS sub models optionally preprocess raw data, and provide data through sub model properties and services. 
+
+Sub models may notify MQTT subscribers about relevant changes in property values to avoid polling of values. 
+
+![Live Process data from asset ilustration alt](images/live_process_aas.png)
+
+
+### Unified Interfaces to Assets, Data, and Everything Else
+
+
+<figure class="img-right">
+    
+        <img src="./images/unified_interfaces_aas_data.png" />
+    
+    
+</figure>
+
+
+Digital twins need to integrate a lot of data sources. AAS sub models may therefore serve as „plugins“, i.e. unified interfaces to legacy systems and information that need to be integrated into digitized manufacturing processes.
+
+This simplifies the integration of high specific systems, such as databases, web services, and ontologies that enable e.g. access to PLM data, or recipes. 
+
+This enables the integration of existing data sources with proprietary and specialized APIs, which are not supported by the Eclipse BaSyx data provider component. A common use-case is the integration of e.g. apache Kafka streams. With the Eclipse BaSyx SDKs, everybody can develop tailored AAS sub models that connect to existing, or specific systems, and therefore serve as „plugins“ for the digitized manufacturing process.
+
+
+### Applications & Tools
+
+Eclipse BaSyx provides pre-configured Industry 4.0 tools, and is compatible with ready-to-use (open-source) toolchains:
+
+* The [*AAS Package Explorer*](https://github.com/admin-shell-io/aasx-package-explorer) enables users to create Asset Administration shells and AAS Sub Models for assets. It also enables the creation of new AAS types and sub model types.
+* The BaSyx AAS Viewer application enables users to lookup AAS and sub model from a registry server, and displays AAS contents to enable process tracking.
+* The open-source Eclipse Streamsheets application enables real-time data analytics, transformation and analysis.
+* The open-source Grafana application visualizes data and enables the creation of dashboards and virtual control rooms.
+* The open-source Node.Red application automates reaction to events, e.g. detected unusual sensor values.
+
+![Application and tools ilustration alt](images/application_and_tools.png)
+-->
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="https://www.eclipse.org/basyx/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+	
+
+    <div class="panel-body">		
+		<img src="../img/BMBF_SponsoredBy_2017.jpg" alt="">		
+    </div>
+</div>
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        <div class="col-md-4 col-sm-6">
+            <h4>Legal</h4>
+		    <ul>
+		      <li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+		      <li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+		      <li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+		      <li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a></li>
+		      <li><a href="https://www.eclipse.org/legal/">Legal Resources </a></li>
+		    </ul>
+        </div>
+        
+        <div class="col-md-4 col-sm-6" align="center">
+            <p align="justify" ><strong>Eclipse BaSyx</strong> has its origins in the <a href="https://www.basys40.de/">BaSys 4 </a> concept that has been developed in the research projects BaSys 4.0 and BaSys 4.2. Both projects are funded by the german Federal Ministry for Ecducation and Research (BMBF).</p>
+            <hr class="hidden-md hidden-lg hidden-sm"/>&nbsp;<p>
+           <a href="https://www.bmbf.de/"> <img src="https://www.eclipse.org/basyx/img/BMBF_Logo.png" class="img-responsive" width="200" alt="BMBF"/></a>
+		    
+       	   <p>Copyright © 2021 <a href="http://eclipse.org">The Eclipse Foundation</a>. <br/>All Rights Reserved.</p>
+        </div>
+
+        	<div class="col-md-4 col-sm-6">
+            <p class="pull-right">
+              Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              <br/>Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+       	</div>
+
+    </div>
+    
+</footer>
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<script src="https://www.eclipse.org/basyx/js/hpneo.gmaps.js"></script>
+<script src="https://www.eclipse.org/basyx/js/gmaps.init.js"></script>
+<script src="https://www.eclipse.org/basyx/js/front.js"></script>
+
+
+<script src="https://www.eclipse.org/basyx/js/owl.carousel.min.js"></script>
+
+
+  </body>
+</html>

@@ -67,6 +67,16 @@
     </item>
     
     <item>
+      <title>Concepts</title>
+      <link>https://www.eclipse.org/basyx/concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/concepts/</guid>
+      <description>Digital Twins Digital Twins are complete representations of any physical or non-physical real-world asset. They represent the current state of the asset though a harmonized interface, which covers for example the state of an asset, and sensor values. Digital twins also provide simulation models that predict asset behavior in a particular situation, provide evidences for substantiated decisions, and enable what-if analysis.
+The Asset Administration shell is an agreed technical foundation for digital twins.</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://www.eclipse.org/basyx/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
