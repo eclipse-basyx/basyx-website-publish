@@ -17,7 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.eclipse.org/basyx/videos/video1/</guid>
-      <description>This video provides an overview about the vision and main concepts of the Industry 4.0. - What is a Digital Twin - Overview of the Asset Administration Shell - Overview of the Asset Administration Shell Submodels - Industry 4.0 Context in Germany - Details about the AAS (Part 1) - Eclipse BaSyx - Core Building Blocks - Eclipse BaSyx - About SDK</description>
+      <description>This video provides an overview about the vision and main concepts of the Industry 4.0.
+ What is a Digital Twin Overview of the Asset Administration Shell Overview of the Asset Administration Shell Submodels Industry 4.0 Context in Germany Details about the AAS (Part 1) Eclipse BaSyx - Core Building Blocks Eclipse BaSyx - About SDK  </description>
     </item>
     
     <item>
@@ -46,7 +47,8 @@ The Bosch Customer Experience Center showcases the potentials of the Asset Admin
       
       <guid>https://www.eclipse.org/basyx/videos/video2/</guid>
       <description>Off-the-shelf (OTS) components are designed and implemented for users which don&amp;rsquo;t want to run BaSyx source code, instead it is possible to run it directly as Docker containers. These OTS components are based on the Eclipse BaSyx Java implementation.
-In this video, the main OTS components are introduced and explained: - how to start the components - how to configure their features using property files - how to configure their features using environment variables</description>
+In this video, the main OTS components are introduced and explained:
+ How to start the components How to configure their features using property files How to configure their features using environment variables  </description>
     </item>
     
     <item>
@@ -74,8 +76,8 @@ In this video, the main OTS components are introduced and explained: - how to st
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.eclipse.org/basyx/videos/video4/</guid>
-      <description>This video showcases: - How to display AAS life-data in a Dashboard? This is realized by an integration with Streamsheets. The illustrated example can be found in Eclipse BaSyx GitHub repository.
- How to push life-data into the AAS Submodels? This is possible by using the BaSyx component DataBridge, which enables the connectivity with many different communication protocols. This example is based on MQTT Events.  </description>
+      <description>This video showcases:
+ How to display AAS life-data in a Dashboard? This is realized by an integration with Streamsheets. The illustrated example can be found in Eclipse BaSyx GitHub repository. How to push life-data into the AAS Submodels? This is possible by using the BaSyx component DataBridge, which enables the connectivity with many different communication protocols. This example is based on MQTT Events.  </description>
     </item>
     
     <item>
@@ -84,7 +86,7 @@ In this video, the main OTS components are introduced and explained: - how to st
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.eclipse.org/basyx/success-stories/04_sick/</guid>
-      <description>Creating a harmonized data space for an efficient intra-logistics SICK is one of the world&amp;rsquo;s leading suppliers of sensor solutions for automation applications in factories, logistics and processes. As a technology and market leader, SICK creates the basis for safe and efficient control of processes, protection of people from accidents and prevention of environmental damage with sensor intelligence and application solutions.
+      <description>Creating a harmonized data space for an efficient intra-logistics SICK is one of the world&#39;s leading suppliers of sensor solutions for automation applications in factories, logistics and processes. As a technology and market leader, SICK creates the basis for safe and efficient control of processes, protection of people from accidents and prevention of environmental damage with sensor intelligence and application solutions.
 SICK controls its intra-logistics using event-based dynamic dispatching with the aim of increasing efficiency and flexibility.</description>
     </item>
     
@@ -114,7 +116,7 @@ The AAS Designer is a web-based tool that supports users in creating Asset Admin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.eclipse.org/basyx/success-stories/07_ellenberger/</guid>
-      <description>Realization of service-based production with Eclipse BaSyx Realization of service-based production with Eclipse BaSyx - Ellenberger GmbH &amp;amp; co. KG is a mechanical parts manufacturing company located in Kaiserslautern. They need to quickly process large numbers of customer orders with different lot sizes based on their capacities and available resources. Eclipse BaSyx Asset Administration Shells were used to integrate an ERP system that automates the decision-making process.
+      <description>Realization of service-based production with Eclipse BaSyx Realization of service-based production with Eclipse BaSyx - Ellenberger GmbH &amp; co. KG is a mechanical parts manufacturing company located in Kaiserslautern. They need to quickly process large numbers of customer orders with different lot sizes based on their capacities and available resources. Eclipse BaSyx Asset Administration Shells were used to integrate an ERP system that automates the decision-making process.
 Ellenberger did use Eclipse BaSyx to create Digital Twins for manufacturing islands, machines, and tools and thus enable semi-automatic resource-based feasibility checks based on real-time production data.</description>
     </item>
     
