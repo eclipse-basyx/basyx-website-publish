@@ -12,6 +12,45 @@
     
     
     <item>
+      <title>Introduction</title>
+      <link>https://www.eclipse.org/basyx/videos/video1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/videos/video1/</guid>
+      <description>This video provides an overview about the vision and main concepts of the Industry 4.0. - What is a Digital Twin - Overview of the Asset Administration Shell - Overview of the Asset Administration Shell Submodels - Industry 4.0 Context in Germany - Details about the AAS (Part 1) - Eclipse BaSyx - Core Building Blocks - Eclipse BaSyx - About SDK</description>
+    </item>
+    
+    <item>
+      <title>OTS Components</title>
+      <link>https://www.eclipse.org/basyx/videos/video2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/videos/video2/</guid>
+      <description>Off-the-shelf (OTS) components are designed and implemented for users which don&amp;rsquo;t want to run BaSyx source code, instead it is possible to run it directly as Docker containers. These OTS components are based on the Eclipse BaSyx Java implementation.
+In this video, the main OTS components are introduced and explained: - how to start the components - how to configure their features using property files - how to configure their features using environment variables</description>
+    </item>
+    
+    <item>
+      <title>Code Examples</title>
+      <link>https://www.eclipse.org/basyx/videos/video3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/videos/video3/</guid>
+      <description>Eclipse BaSyx consists of multiple SDKs that can be utilized as a library in your Industry 4.0 applications. This video showcases some common code examples using the Java SDK.
+ How to load Maven dependencies How to load the Java SDK in Eclipse IDE Registry Component Using MongoDB for persistency Using Connected ASSManager to query Submodel properties  </description>
+    </item>
+    
+    <item>
+      <title>Extended Use</title>
+      <link>https://www.eclipse.org/basyx/videos/video4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/videos/video4/</guid>
+      <description>This video showcases: - How to display AAS life-data in a Dashboard? This is realized by an integration with Streamsheets. The illustrated example can be found in Eclipse BaSyx GitHub repository.
+ How to push life-data into the AAS Submodels? This is possible by using the BaSyx component DataBridge, which enables the connectivity with many different communication protocols. This example is based on MQTT Events.  </description>
+    </item>
+    
+    <item>
       <title>Industry 4.0 becomes practical</title>
       <link>https://www.eclipse.org/basyx/blog/2021/02/17/industry40becomespractical/</link>
       <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
