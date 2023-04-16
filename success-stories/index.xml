@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Success-stories on Eclipse BaSyx</title>
+    <link>https://www.eclipse.org/basyx/success-stories/</link>
+    <description>Recent content in Success-stories on Eclipse BaSyx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.eclipse.org/basyx/success-stories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ZF Friedrichshafen AG</title>
+      <link>https://www.eclipse.org/basyx/success-stories/01_zf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/success-stories/01_zf/</guid>
+      <description>More Flexible and faster commissioning with Eclipse BaSyx ZF Friedrichshafen AG took the chance to use the most advanced Industry 4.0 operating system when updating their prototype manufacturing line. Now, changing the automated manufacturing process can happen in only a few minutes. This efficient adaptation enables the efficient production also of smallest lot sizes. Furthermore, the integration of new devices into the process is now 30% percent faster, compared to the traditional automation used before.</description>
+    </item>
+    
+    <item>
+      <title>Bosch Rexroth AG </title>
+      <link>https://www.eclipse.org/basyx/success-stories/02_boschrexroth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/success-stories/02_boschrexroth/</guid>
+      <description>Next generation manufacturing with Eclipse BaSyx Robert Bosch GmbH was involved from the beginning in the development of the Eclipse BaSyx middleware. The Bosch Customer Experience Center CU.BE in Ulm showcases the potential of Eclipse BaSyx together with revolutionary solutions of Robert Bosch GmbH and Bosch Rexroth AG to realize next generation manufacturing.
+The Bosch Customer Experience Center showcases the potentials of the Asset Administration Shell, as well as the ability to control factory workflows with Business Process Model Notation (BPMN), which adds great flexibility to manufacturing processes and enables rapid changes in processes, as well as the efficient integration of new devices.</description>
+    </item>
+    
+    <item>
+      <title>Sartorius Lab Instruments GmbH &amp; Co. KG</title>
+      <link>https://www.eclipse.org/basyx/success-stories/03_sartorius/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/success-stories/03_sartorius/</guid>
+      <description>Leveraging Eclipse BaSyx and Asset Administration Shells for a modular und flexible production Sartorius is a global leader in supplying pharmaceutical and laboratory equipment, covering the segments of bioprocess solutions as well as lab products &amp;amp; services.
+Sartorius is manufacturing a high number of variants and thus are faced with a multitude of related requirements on their production system. New variants must be easily incorporated; extensions must be modular and seamlessly integrable.</description>
+    </item>
+    
+    <item>
+      <title>SICK AG</title>
+      <link>https://www.eclipse.org/basyx/success-stories/04_sick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/success-stories/04_sick/</guid>
+      <description>Creating a harmonized data space for an efficient intra-logistics SICK is one of the world&amp;rsquo;s leading suppliers of sensor solutions for automation applications in factories, logistics and processes. As a technology and market leader, SICK creates the basis for safe and efficient control of processes, protection of people from accidents and prevention of environmental damage with sensor intelligence and application solutions.
+SICK controls its intra-logistics using event-based dynamic dispatching with the aim of increasing efficiency and flexibility.</description>
+    </item>
+    
+    <item>
+      <title>Objective Partner AG</title>
+      <link>https://www.eclipse.org/basyx/success-stories/05_objectivepartner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/success-stories/05_objectivepartner/</guid>
+      <description>Asset-as-a-Service with Eclipse BaSyx The objective partner AG is a technology consulting company located in Weinheim. Over the past years, objective partner AG has developed a substantial expertise in implementing Eclipse BaSyx-based solutions for their clients, leveraging the middleware to build customized, scalable, and secure industrial automation systems.
+During Hannover Messe 2022, Objective Partner showcased a Corona Test Robot that can autonomously perform nasal swabs for corona rapid tests. The robot solution for Covid tests was realized together with SAP Franka Emika GmbH.</description>
+    </item>
+    
+    <item>
+      <title>META-LEVEL Software AG</title>
+      <link>https://www.eclipse.org/basyx/success-stories/06_metalevel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/success-stories/06_metalevel/</guid>
+      <description>AAS Designer to create, manage and share Asset Administration Shells META-LEVEL is a software company located in Saarbrücken. They develop custom software and provide consulting services for customers from different domains. As experts for Eclipse BaSyx, they are happy to support all your automation needs. One of the major solutions provided by Meta-Level for industrial automation is the AAS Designer.
+The AAS Designer is a web-based tool that supports users in creating Asset Administration Shells and associated sub models easily and quickly.</description>
+    </item>
+    
+    <item>
+      <title>Ellenberger GmbH &amp; Co KG</title>
+      <link>https://www.eclipse.org/basyx/success-stories/07_ellenberger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/success-stories/07_ellenberger/</guid>
+      <description>Realization of service-based production with Eclipse BaSyx Realization of service-based production with Eclipse BaSyx - Ellenberger GmbH &amp;amp; co. KG is a mechanical parts manufacturing company located in Kaiserslautern. They need to quickly process large numbers of customer orders with different lot sizes based on their capacities and available resources. Eclipse BaSyx Asset Administration Shells were used to integrate an ERP system that automates the decision-making process.
+Ellenberger did use Eclipse BaSyx to create Digital Twins for manufacturing islands, machines, and tools and thus enable semi-automatic resource-based feasibility checks based on real-time production data.</description>
+    </item>
+    
+    <item>
+      <title>HÄFNER Präzisionsteile Oberrot GmbH</title>
+      <link>https://www.eclipse.org/basyx/success-stories/08_hafner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/success-stories/08_hafner/</guid>
+      <description>System modernisation and data exchange with the help of Eclipse BaSyx HÄFNER Präzisionsteile Oberrot GmbH is a producer of high-precision weights in individual to small series production. Some of these weights are highly customised. Weights are regularly recalibrated in addition to the initial calibration, whereby the interval is determined by customers. The company also produces precision parts (e.g. for gearboxes), about which various data are recorded in a CAQ system (Computer-Aided Quality) during quality assurance.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,6 +7,14 @@
   </url>
   
   <url>
+    <loc>https://www.eclipse.org/basyx/success-stories/01_zf/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/success-stories/02_boschrexroth/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.eclipse.org/basyx/videos/video2/</loc>
   </url>
   
@@ -15,7 +23,31 @@
   </url>
   
   <url>
+    <loc>https://www.eclipse.org/basyx/success-stories/03_sartorius/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.eclipse.org/basyx/videos/video4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/success-stories/04_sick/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/success-stories/05_objectivepartner/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/success-stories/06_metalevel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/success-stories/07_ellenberger/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/success-stories/08_hafner/</loc>
   </url>
   
   <url>
@@ -86,6 +118,19 @@
   
   <url>
     <loc>https://www.eclipse.org/basyx/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/partners/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.eclipse.org/basyx/success-stories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
