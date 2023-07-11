@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BaSyx How-To - Asset Integration</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="industrie 4.0, iot, basys 4.0, basys 4.2, basyx, smart production, digitalization, cyber physical systems, BaSyx offers, Digital Twin, Asset Administration Shell">	
+  
+
+  
+  <meta name="description" content="Eclipse BaSyx Community Website">	
+  
+
+  <meta name="generator" content="Hugo 0.42.1" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="https://www.eclipse.org/basyx/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="https://www.eclipse.org/basyx/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+  
+  <link href="https://www.eclipse.org/basyx/css/style.basyx.css" rel="stylesheet" id="theme-stylesheet">
+
+
+  
+  <link href="https://www.eclipse.org/basyx/css/custom.css" rel="stylesheet">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+	<link rel="apple-touch-icon" sizes="57x57" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.eclipse.org/basyx/img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="https://www.eclipse.org/basyx/img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.eclipse.org/basyx/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://www.eclipse.org/basyx/img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.eclipse.org/basyx/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="https://www.eclipse.org/basyx/img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+  
+  
+
+  <link href="https://www.eclipse.org/basyx/css/owl.carousel.css" rel="stylesheet">
+  <link href="https://www.eclipse.org/basyx/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://www.eclipse.org/index.xml" type="application/rss+xml" title="Eclipse BaSyx">
+
+  
+  <meta property="og:title" content="BaSyx How-To - Asset Integration" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/basyx/asset_integration//" />
+  <meta property="og:image" content="img/basyxlogo.png" />
+  
+  
+  <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+  <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script> 
+  
+  <script src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/eclipsefdn.videos.min.js"></script>
+  <link href="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/eclipsefdn-video.min.css" rel="stylesheet" type="text/css">
+  <script>eclipseFdnVideos.replace();</script>
+
+  
+  <script defer src="/static/fontawesome/fontawesome-all.js"></script>
+</head>
+
+  
+  
+
+  <body>
+
+    <div id="all">
+
+        <header>
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://www.eclipse.org/basyx/">
+                    <img src="https://www.eclipse.org/basyx/img/basyxlogo.png" alt="BaSyx How-To - Asset Integration logo" class="hidden-xs hidden-sm">
+                    <img src="https://www.eclipse.org/basyx/img/basyxlogo.png" alt="BaSyx How-To - Asset Integration logo" class="visible-xs visible-sm">
+                    <span class="sr-only">BaSyx How-To - Asset Integration - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/basyx/about/">About</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Benefits <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                        <li><a href="/basyx/digitization/">Digitization</a></li>
+                      
+                        <li><a href="/basyx/integrated-applications/">Integrated Applications</a></li>
+                      
+                    </ul>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ecosystem <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                        <li><a href="/basyx/overview/">Overview</a></li>
+                      
+                        <li><a href="/basyx/partners/">Partners</a></li>
+                      
+                        <li><a href="/basyx/success-stories/">Success Stories</a></li>
+                      
+                    </ul>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting Started <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                        <li><a href="/basyx/videos/">Videos</a></li>
+                      
+                        <li><a href="https://www.iese.fraunhofer.de/en/customers_industries/digitalisierung-produktion/industrie40/basyx_open_hour.html">Open Hour</a></li>
+                      
+                    </ul>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/basyx/how-to/">How To</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Developer <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                        <li><a href="/basyx/concepts/">Concepts</a></li>
+                      
+                        <li><a href="/basyx/architecture/">Architecture</a></li>
+                      
+                        <li><a href="https://wiki.eclipse.org/BaSyx_/_Developer_/_Contributing">Contributing</a></li>
+                      
+                        <li><a href="https://wiki.eclipse.org/BaSyx">Wiki</a></li>
+                      
+                    </ul>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>BaSyx How-To - Asset Integration</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">											
+                      <div class="image" align="center">
+                        						
+                            <img src="https://www.eclipse.org/basyx/img/placeholder.png" class="img-responsive" alt="">							
+                        
+                      </div>
+
+                        <p class="text-muted text-uppercase mb-small text-right">   </p>
+						
+                        <div id="post-content" class="custom-font">
+                          
+
+<h1 id="asset-integration-example">Asset Integration Example</h1>
+
+<h2 id="overview">Overview</h2>
+
+<ul>
+<li><a href="#Docker" title="Docker Off-The Shelf">Docker</a></li>
+<li><a href="#Java" title="Java SDK">Java</a></li>
+<li><a href="#C#" title="C# SDK">C#</a></li>
+<li><a href="#C++" title="C++ SDK">C++</a></li>
+<li><a href="#Python" title="Python SDK">Python</a></li>
+</ul>
+
+<h2 id="docker">Docker</h2>
+
+<h3 id="aas-web-gui">AAS Web GUI</h3>
+
+<h2 id="java">Java</h2>
+
+<p>In the following, device integration with BaSyx as implemented in the <a href="https://github.com/eclipse-basyx/basyx-java-examples/tree/main/basyx.examples.deviceintegration/src/main/resources">Device Integration Example on Github</a> is considered using a heating element. The heating element has a simple interface:</p>
+
+<ul>
+<li>A heating setpoint can be configured in degrees Fahrenheit via http/REST.</li>
+<li>The last configured setpoint can be queried via http/REST.</li>
+<li>Every second, the currently measured temperature value in degrees Fahrenheit is made available as an MQTT event.</li>
+</ul>
+
+<p>The first step is to create the digital twin in the form of the Asset Administration Shell, e.g. with the AASX Package Explorer. The following picture shows a possible representation of the asset on the management shell. Typically, the asset would contain further submodels such as the Digital Nameplate - but for simplicity, this has been omitted.</p>
+
+
+<figure class="img-left">
+    
+        <img src="./images/Asset_Integration_AASX.png" />
+    
+    
+</figure>
+
+
+<p>Specifically, the AAS contains two submodels:</p>
+
+<ul>
+<li>TemperatureSensor: Represents the temperature sensor aspect of the asset and contains the current measured temperature in degrees Celsius instead of Fahrenheit as the asset provides it.</li>
+<li>HeaterControl: Represents the heater aspect of the asset and provides an operation to set the heater setpoint. Similarly, a property provides the last set heater setpoint. The heating setpoint is specified in degrees Fahrenheit in this example.</li>
+</ul>
+
+<p>In addition, both sumodel elements are annotated with qualifiers. The meaning of these qualifiers is explained in a later step. In the example scenario, the HeaterControl submodel is integrated with an application from the USA, which is why the native temperature measurement is provided in degrees Fahrenheit. The TemperatureSensor submodel, on the other hand, is used to display the current process in a dashboard application for the European market, therefore Celsius is used.</p>
+
+<p>The defined AAS can now be loaded into the AAS infrastructure and the architecture shown in the figure below is created. There, however, it exists in the first step detached from the real asset. With Eclipse BaSyx, data integration can now be carried out easily. Eclipse BaSyx offers various means for this, which are presented in more detail below:</p>
+
+<ul>
+<li>Integration via property delegation</li>
+<li>Integration via operation delegation</li>
+<li>Data integration with the Eclipse BaSyx DataBridge</li>
+</ul>
+
+
+<figure class="img-left">
+    
+        <img src="./images/BaSyx_Asset_Integration_Abstract_Architecture.png" />
+    
+    
+</figure>
+
+
+<h1 id="integration-via-property-delegation">Integration via Property Delegation</h1>
+
+<p>If a simple data point is to be integrated directly with a submodel, i.e. without transformation, property delegation is a suitable approach. With this integration mechanism, the query of a property by the AAS application is delegated by the AAS server. The data point is queried by the AAS server for an asset and returned to the AAS application. Consequently, this delegation or forwarding is fully transparent and therefore invisible to the AAS application. The advantage of this is obvious: changes to device integrations can be made without any changes to the AAS applications. This means that design decisions can be changed retrospectively without additional tailoring effort. The architecture resulting from this approach is shown below.</p>
+
+
+<figure class="img-left">
+    
+        <img src="./images/BaSyx_Asset_Integration_Property_Delegation.png" />
+    
+    
+</figure>
+
+
+<p>But how can this integration be implemented via property delegation with Eclipse BaSyx? The good news: quite simple - without a single line of code. The AAS server component of BaSyx supports Property Delegation with a simple configuration. Specifically, to use &amp; configure property delegation, only the &ldquo;delegatedTo&rdquo; qualifier of a property needs to be set. In the screenshot of the AASX Package Explorer above, this qualifier is set to the value
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">http://host.docker.internal:8082/heater/targetTemperature/last</code></pre></div></p>
+
+<p>so any request to this property is automatically delegated to the named URL and thus resolved. The assumption here is that the asset under the delegated endpoint already provides the data in a format suitable for the submodel; e.g. for the example at hand if we would be content with using Fahrenheit in our submodel. As we want to use Celsius, data transformations are necessary, for which the DataBridge can be used, which is <a href="#C#" title="C# SDK">described below</a>.</p>
+
+<h1 id="integration-via-operation-delegation">Integration via Operation Delegation</h1>
+
+<p>Assets often provide interaction points such as http/REST endpoints through which configurations can be made or actions triggered. These endpoints can also be integrated with submodels via a delegation mechanism. Analogous to property delegation, BaSyx offers an easy-to-configure feature with Operation Delegation that addresses precisely this use case. An operation call transmitted to the AAS server can therefore also be delegated in a fully transparent manner. This feature enables the same advantage as property delegation: Sign decisions can be easily changed without having to adapt higher-level applications. The figure below illustrates the resulting architecture.</p>
+
+
+<figure class="img-left">
+    
+        <img src="./images/BaSyx_Asset_Integration_Operation_Delegation.png" />
+    
+    
+</figure>
+
+
+<p>The configuration of this feature is similar to property delegation: A simple use of the &ldquo;invocationDelegation&rdquo; qualifier with the target URL as value is sufficient. In the screenshot of the AASX Package Explorer above, this value is set to</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">http://host.docker.internal:8082/heater/setTargetTemperature/invoke</code></pre></div>
+
+<p>So any invocation of this operation is automatically delegated to the named URL.</p>
+
+<h1 id="data-integration-with-the-eclipse-basyx-databridge">Data integration with the Eclipse BaSyx DataBridge</h1>
+
+<p>As already mentioned in the chapter &lsquo;Integration via property delegation&rsquo;, the integration mechanism described there is mainly suitable for simple integrations. If complex transformations of data points are necessary, it is not suitable. However, BaSyx can also provide support in these scenarios: The solution is the BaSyx DataBridge. This is an easy-to-use off-the-shelf component that is provided as a <a href="https://hub.docker.com/r/eclipsebasyx/databridge">docker image on DockerHub</a>. It supports data integration with a variety of protocols such as OPC UA, http/REST, MQTT, ActiveMQ or Kafka. In addition, it enables the transformation of data provided via the protocols. For example, JSON files can be converted into <a href="https://jsonata.org/">JSONata</a> - a transformation language for JSON - using simple expressions. Specifically, it supports two integration patterns:</p>
+
+<ul>
+<li>Cyclic integration: Data is queried, transformed and integrated into the AAS at regular intervals or event-driven (-&gt; Push).</li>
+<li>On-demand delegation: On request of the AAS server, a data point is queried, transformed and returned (-&gt; Pull).</li>
+</ul>
+
+<p>The figure below compares these two integration patterns. The main difference is the control flow between the AAS server and the DataBridge.</p>
+
+
+<figure class="img-left">
+    
+        <img src="./images/BaSyx_Asset_Integration_DataBridge_Comparison.png" />
+    
+    
+</figure>
+
+
+<p>In the example of the heating element, it is used to query the current temperature value every second, transform it from degrees Fahrenheit to degrees Celsius and store it in the &ldquo;currentTemperature&rdquo; property. For this integration, various descriptions are necessary as configuration of the DataBridge. The following descriptions are the most important:</p>
+
+<ul>
+<li>Description of the MQTT endpoint that provides the temperature value.</li>
+<li>Description of the data transformation in JSONata, which selects the temperature value and converts it into degrees Celsius.</li>
+<li>Description of the submodel endpoint and the property in which the data is to be stored.</li>
+<li>Merging the individual elements into a data integration route</li>
+</ul>
+
+<p>The different configurations are shown below; they are also available on GitHub (<a href="https://github.com/eclipse-basyx/basyx-java-examples/tree/main/basyx.examples.deviceintegration/src/main/resources">https://github.com/eclipse-basyx/basyx-java-examples/tree/main/basyx.examples.deviceintegration/src/main/resources</a>).</p>
+
+<p>The MQTT endpoint is described as follows:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">{
+	&#34;uniqueId&#34;: &#34;temperatureSensor&#34;,
+	&#34;serverUrl&#34;: &#34;host.docker.internal&#34;,
+	&#34;serverPort&#34;: 1884,
+	&#34;topic&#34;: &#34;heater/temperature&#34;.
+}</code></pre></div>
+
+<p>The uniqueId entry specifies the name of the data processing node that is used in the further integration. serverURL &amp; serverPort describe the access point under which the MQTT broker can be found. The entry topic describes the MQTT topic under which the temperature data is published.</p>
+
+<p>The next step describes the data transformation. The JSON messages sent via MQTT look like the following, for example:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">{
+	&#34;temperature&#34;: 32,
+	&#34;timestamp&#34;: 1674025471
+}</code></pre></div>
+
+<p>To select the temperature and convert it from degrees Fahrenheit to degrees Celsius, subsequent JSONata expression is necessary:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">$floor((temperature - 32) * 5 / 9)</code></pre></div>
+
+<p>$floor is a JSONata function that rounds the calculated value to the nearest integer.</p>
+
+<p>The file with this JSONata expression is linked to a route entry via the following configuration:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">[
+	{
+		&#34;uniqueId&#34;: &#34;temperatureTransformer&#34;,
+		&#34;queryPath&#34;: &#34;temperatureTransformer.jsonata&#34;,
+		&#34;inputType&#34;: &#34;JsonString&#34;,
+		&#34;outputType&#34;: &#34;JsonString&#34;
+	}
+]</code></pre></div>
+
+<p>Analogous to the endpoint description of MQTT, the uniqueId is also the name of the data processing node. queryPath specifies the file name in which the previous JSONata expression is stored. The entry JsonString for inputType &amp; outputType specifies that a JSON is to be processed.</p>
+
+<p>In the next step, the submodel endpoint and the target property are described via the following configuration:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">[
+	{
+		&#34;uniqueId&#34;: &#34;TemperatureSubmodel&#34;,
+		&#34;submodelEndpoint &#34;: &#34;http://host.docker.internal:4001/aasServer/shells/heaterAAS/aas/submodels/temperatureSensor/submodel&#34;,
+		&#34;idShortPath&#34;: &#34;currentTemperature&#34;
+	}
+]</code></pre></div>
+
+<p>The uniqueId entry has the same meaning as in the above descriptions. The URL of the submodel endpoint is specified via submodelEndpoint, the idShortPath entry refers to the specific property to be filled.</p>
+
+<p>Finally, the individual data processing nodes must be combined into a route. This is done as follows:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-console" data-lang="console">[
+	{
+		&#34;datasource&#34;: &#34;temperatureSensor&#34;,
+		&#34;transformers&#34;: [&#34;temperatureTransformer&#34;],
+		&#34;datasinks&#34;: [ &#34;temperatureSubmodel&#34; ],
+		&#34;trigger&#34;: &#34;event&#34;.
+	}
+]</code></pre></div>
+
+<p>Using the various uniqueIds, the route is routed from the datasource via the transformers to the datasink. Since this is an event-driven route, the value event is specified as the trigger. On GitHub you can also find examples of a time-driven integration and a delegated integration with the DataBridge</p>
+
+<h1 id="easy-integration-with-basyx-off-the-shelf-components">Easy integration with BaSyx off-the-shelf components</h1>
+
+<p>Once the above configurations have been made, the AAS infrastructure (i.e. AAS Server, AAS Registry, AAS GUI), the DataBridge and the simulated asset can be started. In the example, docker compose is used for this, as also provided on GitHub (<a href="https://github.com/eclipse-basyx/basyx-java-examples/tree/main/basyx.examples.deviceintegration/src/main/resources">https://github.com/eclipse-basyx/basyx-java-examples/tree/main/basyx.examples.deviceintegration/src/main/resources</a>).</p>
+
+<p>After starting the complete container landscape, the result is the overall system shown below.</p>
+
+
+<figure class="img-left">
+    
+        <img src="./images/BaSyx_Asset_Integration_Architecture_Overview.png" />
+    
+    
+</figure>
+
+
+<p>The AAS GUI can then be called up in the browser via <a href="http://localhost:3000">http://localhost:3000</a> and is shown below. After configuring the registry URL as <a href="http://localhost:4000/registry">http://localhost:4000/registry</a> and activating the auto-sync in the GUI via the button in the top right-hand corner, the administration shell with its submodels can be accessed directly.</p>
+
+
+<figure class="img-left">
+    
+        <img src="./images/BaSyx_AAS_UI.png" />
+    
+    
+</figure>
+
+
+<p>The setTargetTemperature operation in the heaterControl submodel can now be used to set a target temperature in degrees Fahrenheit, which can then be called up in the lastTargetTemperature property. By selecting the currentTemperature property with a mouse click in the temperatureSensor submodel, it is possible to follow live how the temperature is set.</p>
+
+<h2 id="c">C</h2>
+
+<h2 id="c-1">C++</h2>
+
+<h2 id="python">Python</h2>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+<div class="panel sidebar-menu">
+    
+    <div class="panel-body">
+		<a href="https://www.iese.fraunhofer.de/en/customers_industries/digitalisierung-produktion/industrie40/basyx_open_hour.html" target="_blank"><img src="https://www.eclipse.org/basyx//img/basyx_open-hour_smalll.jpg" alt=""></a>	
+    </div>
+</div>
+
+<div class="panel sidebar-menu">
+	
+  <div class="panel-body">		
+  <img src="https://www.eclipse.org/basyx//img/BMBF_SponsoredBy.jpg" alt="">		
+  </div>
+</div>
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        <div class="col-md-4 col-sm-6">
+            <h4>Legal</h4>
+		    <ul>
+		      <li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+		      <li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+		      <li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+		      <li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a></li>
+		      <li><a href="https://www.eclipse.org/legal/">Legal Resources </a></li>
+		    </ul>
+        </div>
+        
+        <div class="col-md-4 col-sm-6" align="center">
+            <p align="justify"><strong>Eclipse BaSyx</strong> was and is funded by the German Federal Ministry for Education and Research (BMBF) in context of BaSys 4.0, BaSys4.2, überProd, and BaSys4Transfer projects.</p>
+            <hr class="hidden-md hidden-lg hidden-sm"/>&nbsp;<p>
+           <a href="https://www.bmbf.de/"> <img src="https://www.eclipse.org/basyx/img/BMBF_Logo.png" class="img-responsive" width="200" alt="BMBF"/></a>
+		    
+       	   <p>Copyright © 2023 <a href="http://eclipse.org">The Eclipse Foundation</a>. <br/>All Rights Reserved.</p>
+        </div>
+
+        	<div class="col-md-4 col-sm-6">
+            <p class="pull-right">
+              Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              <br/>Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+       	</div>
+
+    </div>
+    
+</footer>
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<script src="https://www.eclipse.org/basyx/js/hpneo.gmaps.js"></script>
+<script src="https://www.eclipse.org/basyx/js/gmaps.init.js"></script>
+<script src="https://www.eclipse.org/basyx/js/front.js"></script>
+
+
+<script src="https://www.eclipse.org/basyx/js/owl.carousel.min.js"></script>
+
+
+  </body>
+</html>

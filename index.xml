@@ -195,6 +195,16 @@ Ellenberger did use Eclipse BaSyx to create Digital Twins for manufacturing isla
     </item>
     
     <item>
+      <title>BaSyx How-To - Asset Integration</title>
+      <link>https://www.eclipse.org/basyx/asset_integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/asset_integration/</guid>
+      <description>Asset Integration Example Overview  Docker Java C# C++ Python  Docker AAS Web GUI Java In the following, device integration with BaSyx as implemented in the Device Integration Example on Github is considered using a heating element. The heating element has a simple interface:
+ A heating setpoint can be configured in degrees Fahrenheit via http/REST. The last configured setpoint can be queried via http/REST. Every second, the currently measured temperature value in degrees Fahrenheit is made available as an MQTT event.</description>
+    </item>
+    
+    <item>
       <title>Benefits</title>
       <link>https://www.eclipse.org/basyx/benefits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -221,6 +231,15 @@ The Asset Administration shell is an agreed technical foundation for digital twi
       
       <guid>https://www.eclipse.org/basyx/contact/</guid>
       <description>Get involved in the BaSyx project Download the Eclipse BaSyx reference implementation and explore the platform. We have detailed documentation on the wiki. Contact us or visit the forum</description>
+    </item>
+    
+    <item>
+      <title>Digitization</title>
+      <link>https://www.eclipse.org/basyx/digitization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/digitization/</guid>
+      <description>Our mission is to simplify the digitization of production environments. Eclipse BaSyx provides a robust and scalable infrastructure for digital twins, and integrate numerous applications that support many kinds of digitization tasks. This includes components to create, monitor, and host Asset Administration Shells (AAS), integrate them with their real-world assets and provide easy-to-use dashboards. The Eclipse BaSyx Data Bridge connects AAS with assets to create Digital Twins that represent the asset state at all times, and optionally enables controlling of assets and processes.</description>
     </item>
     
     <item>
