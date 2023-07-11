@@ -253,6 +253,16 @@ The Asset Administration shell is an agreed technical foundation for digital twi
     </item>
     
     <item>
+      <title>Integrated Applications</title>
+      <link>https://www.eclipse.org/basyx/integrated-applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.eclipse.org/basyx/integrated-applications/</guid>
+      <description>Applications make the benefits of a digitized manufacturing process accessible, because they make a change to the operators of a device, of a manufacturing line, or of a factory. The following applications integrate with Eclipse BaSyx to interact with digitized manufacturing processes and Asset Administration Shells (AAS).
+Eclipse Streamsheets Real-time data analytics and data processing pipelines Eclipse Streamsheets is a real-time spreadsheet application that processes data from external sources, processes this data, and optionally provides output.</description>
+    </item>
+    
+    <item>
       <title>Overview</title>
       <link>https://www.eclipse.org/basyx/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
